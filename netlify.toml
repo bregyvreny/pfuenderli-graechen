@@ -1,0 +1,5 @@
+# Netlify-Konfiguration
+# Reines HTML/CSS – kein Build-Schritt. Veröffentlicht wird nur der Ordner public/.
+[build]
+  publish = "public"
+  command = ""
