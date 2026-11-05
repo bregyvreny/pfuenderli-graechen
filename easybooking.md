@@ -34,5 +34,5 @@ Laut Doku mit Daten: `#<cid>/<lid>/<Anreise JJJJ-MM-TT>/<Abreise>/<Erwachsene>/<
 - [ ] **Buchungsseite lädt nicht:** Beim Test am 5.11.2026 blieb die Buchungsseite leer – auch mit dem Original-Link aus der Vorschau. Der Server antwortet bei `api/webClientCustomer/7233/2` mit **403 Forbidden**. Ursache unbekannt (Online-Buchung deaktiviert? Sperre für bestimmte Browser?). Vreny testet den Link im eigenen Browser; sonst easybooking-Support fragen.
 - [ ] Sprach-ID Englisch bestätigen.
 - [ ] Studio ROSELINE: auf die Website oder nicht?
-- [ ] Adresse: easybooking zeigt «Dorfstrasse 152, 3925 Grächen», die Website «Halbsucht 273, 3925 Grächen» – welche stimmt?
+- [x] Adresse: easybooking zeigt «Dorfstrasse 152, 3925 Grächen», die Website «Halbsucht 273, 3925 Grächen» – welche stimmt? → **Dorfstrasse 152** (von der Gemeinde neu vergeben), Website angepasst.
 - [ ] Preise in easybooking: Hinweis «Es wurden noch nicht alle Preise bestätigt».

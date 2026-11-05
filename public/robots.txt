@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pfuenderli-graechen.ch/sitemap.xml

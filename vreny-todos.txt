@@ -1,0 +1,22 @@
+TODOS FÜR VRENY – Website pfuenderli-graechen.ch
+Erfasst am 5.11.2026
+
+[ ] 1. Google Search Console
+       Website unter https://search.google.com/search-console anmelden
+       und die Sitemap einreichen: https://pfuenderli-graechen.ch/sitemap.xml
+       (erst sobald die Website richtig online ist)
+
+[ ] 2. Google-Unternehmensprofil (Google Maps)
+       Profil für "apartments bregy" anlegen bzw. ein bestehendes übernehmen:
+       https://www.google.com/business
+       Adresse: Dorfstrasse 152, 3925 Grächen
+       Website: https://pfuenderli-graechen.ch
+
+[ ] 3. Alte Website umleiten
+       bregy-vreny.ch (und apartments-bregy.ch) dauerhaft (301) auf
+       https://pfuenderli-graechen.ch weiterleiten lassen.
+       Zugang hat die Person, die die alte WordPress-Seite eingerichtet hat.
+
+[ ] 4. Adresse überall nachführen
+       Neue Adresse Dorfstrasse 152 auch in easybooking, Booking-Portalen usw. prüfen
+       (easybooking zeigt sie bereits).
