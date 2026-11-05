@@ -43,7 +43,8 @@ Reines HTML + CSS + wenig JavaScript, keine Build-Tools. Abweichungen nur nach R
 
 ## Hosting
 
-- **Netlify**, mit GitHub verbunden: Jeder Push auf `main` geht automatisch online.
-- Veröffentlicht wird **nur der Ordner `public/`** (festgelegt in `netlify.toml`). Alles andere (`.claude/`, `project/`, Notizen) bleibt privat.
-- Domain `pfuenderli-graechen.ch` liegt bei Hostpoint (nur Domain, kein Webhosting); DNS zeigt auf Netlify.
+- **GitHub Pages** über GitHub Actions (`.github/workflows/pages.yml`): Jeder Push auf `main` geht automatisch online.
+- Veröffentlicht wird **nur der Ordner `public/`**. `.claude/`, `project/` und die Notizen kommen nicht auf die Website. Achtung: Sie sind aber im GitHub-Repository sichtbar, falls dieses öffentlich ist.
+- Domain `pfuenderli-graechen.ch` liegt bei Hostpoint (nur Domain, kein Webhosting); DNS zeigt auf GitHub Pages (A-Einträge `185.199.108–111.153`, `www` als CNAME auf `bregyvreny.github.io`).
+- Bekanntes Risiko: Die Nutzungsbedingungen von GitHub Pages schliessen Seiten mit vorwiegend geschäftlichem Zweck aus. Ausweichmöglichkeit: Cloudflare (Pages/Workers), `public/` als Ausgabe-Ordner.
 - `project/` enthält den ursprünglichen Design-Entwurf (`*.dc.html`) als Referenz – nicht veröffentlichen, nicht als Live-Seite bearbeiten.

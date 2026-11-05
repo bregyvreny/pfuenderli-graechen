@@ -72,7 +72,7 @@ Domain: `https://pfuenderli-graechen.ch`
 - Google Search Console, Google-Unternehmensprofil, Weiterleitung alte Domain → erledigt Vreny (siehe `vreny-todos.txt`)
 
 ## 6. Offene Fragen
-- [ ] F-01 Hosting: GitHub Pages veröffentlicht noch den Hauptordner statt `public/`. Workflow einrichten oder zu Cloudflare wechseln? (GitHub-Bedingungen schliessen geschäftliche Seiten aus.)
+- [x] F-01 Hosting: Entscheid 5.11.2026 – GitHub Pages mit Workflow `.github/workflows/pages.yml`, veröffentlicht nur `public/`. Hinweis auf die GitHub-Bedingungen (keine vorwiegend geschäftlichen Seiten) wurde gegeben.
 - [ ] F-02 easybooking: Welcher Link kommt auf die Seite? Der Vorschau-Link ist intern und nicht für Gäste geeignet.
 - [ ] F-03 Studio ROSELINE (easybooking-Kategorie 24) auf die Website?
 - [ ] F-04 Impressum und Datenschutz fehlen noch.
