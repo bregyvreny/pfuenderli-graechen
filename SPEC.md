@@ -76,7 +76,7 @@ Domain: `https://pfuenderli-graechen.ch`
 - [ ] F-02 easybooking: Welcher Link kommt auf die Seite? Der Vorschau-Link ist intern und nicht für Gäste geeignet.
 - [ ] F-03 Studio ROSELINE (easybooking-Kategorie 24) auf die Website?
 - [ ] F-04 Impressum und Datenschutz fehlen noch.
-- [ ] F-05 Fotos Chalet EFEU passen nicht zur Beschreibung: Das Hauptfoto «Südzimmer» (`6cc9b0e4…`) und «Südzimmer mit Lavabo» (`2885bc79…`) zeigen das Chalet von aussen; «Wohnraum mit Sofas» (`ec4f2f5a…`) und «Einzelzimmer mit Natursteinwand» (`66cc5485…`) sind vertauscht. Vermutlich schon so im Entwurf (nicht im Canvas geprüft). Richtiges Südzimmer-Foto auswählen (Ordner OneDrive\Bilder\Bilder\apartments\Efeu).
+- [x] F-05 (erledigt 5.11.2026: drei Südzimmer-Fotos von Vreny eingesetzt – `efeu-suedzimmer.jpg` als Hauptfoto, `-balkon`, `-lavabo`; vertauschte Fotos getauscht) Fotos Chalet EFEU passten nicht zur Beschreibung: Das Hauptfoto «Südzimmer» (`6cc9b0e4…`) und «Südzimmer mit Lavabo» (`2885bc79…`) zeigen das Chalet von aussen; «Wohnraum mit Sofas» (`ec4f2f5a…`) und «Einzelzimmer mit Natursteinwand» (`66cc5485…`) sind vertauscht. Vermutlich schon so im Entwurf (nicht im Canvas geprüft). Richtiges Südzimmer-Foto auswählen (Ordner OneDrive\Bilder\Bilder\apartments\Efeu).
 
 ## 7. Änderungsprotokoll
 | Version | Datum | Änderung |
