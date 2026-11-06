@@ -65,3 +65,14 @@ img { max-width: 100%; height: auto; display: block; }
 .pf-shop-bild { border-radius: 8px; margin-top: 1rem; max-height: 28rem; width: 100%; object-fit: cover; }
 .pf-fuss { background: var(--farbe-haupt-hover); color: #F5F4F0; text-align: center; padding: 1.5rem 1rem; }
 .pf-fuss a { color: #fff; white-space: nowrap; }
+
+/* Textseiten: Impressum, Datenschutz (SPEC A-09) */
+.textseite { max-width: 46rem; margin: 0 auto; padding: 2rem 1rem 3rem; }
+.textseite h1 { font-family: var(--schrift-titel); color: var(--farbe-haupt); font-size: clamp(2rem, 6vw, 2.6rem); line-height: 1.1; margin: 0 0 1.5rem; }
+.textseite h2 { font-family: var(--schrift-titel); font-size: 1.3rem; margin: 2rem 0 .5rem; }
+.textseite address { font-style: normal; }
+.textseite .stand { color: var(--farbe-text-leise); margin-top: 2.5rem; font-size: .95rem; }
+.seitenfuss { background: #1F2A24; color: #D6D3CB; font-size: 15px; }
+.seitenfuss-innen { max-width: 1200px; margin: 0 auto; padding: 32px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; }
+.seitenfuss a { color: #F5F4F0; padding: 4px 0; }
+.seitenfuss nav { display: flex; gap: 20px; }

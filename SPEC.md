@@ -82,6 +82,17 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Link von der Startseite DE/EN, Eintrag in `sitemap.xml`
   - [ ] Englische Fassung `docs/en/pfuenderli.html`
 
+### A-09 Impressum und Datenschutzerklärung
+- Priorität: Muss · Status: Entwurf umgesetzt (6.11.2026), Freigabe durch Vreny ausstehend
+- Seiten `docs/impressum.html` und `docs/datenschutz.html` (Deutsch; englische Fassung folgt), verlinkt in der Fusszeile der Startseiten DE/EN und der z'Pfünderli-Seite. Grundlage: Schweizer Datenschutzgesetz (DSG). Kein Rechtsrat – im Zweifel Fachperson beiziehen.
+- Angaben von Vreny (6.11.2026): Im Handelsregister eingetragen, Firmenname «Verena Bregy», 3925 Grächen, Swiss-Knife-Shop; MWST-Nr. CHE-105.731.005. Die ESTV-ID wird nicht veröffentlicht (interne Nummer der Steuerverwaltung).
+- Annahmen (bestätigen lassen): Adresse der Firma Dorfstrasse 152; Verantwortliche Person Verena Bregy; Firmenname und UID nicht in Zefix nachgeprüft.
+- Datenschutz nennt den Ist-Zustand: Hosting GitHub Pages (USA, Server-Logs), Google Fonts (USA), Kontakt per E-Mail/Telefon/WhatsApp, keine Cookies, keine Analyse-Werkzeuge. Das Kontaktformular verschickt keine Daten (siehe F-06).
+- Abnahmekriterien:
+  - [x] Beide Seiten existieren, sind in der Fusszeile verlinkt und in `sitemap.xml`
+  - [x] Keine erfundenen Angaben; alle Firmenangaben stammen von Vreny
+  - [ ] Von Vreny gelesen und freigegeben
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -94,7 +105,9 @@ Domain: `https://pfuenderli-graechen.ch`
 - [x] F-01 Hosting: Entscheid 5.11.2026 GitHub Actions mit `public/`; **geändert 6.11.2026: GitHub Pages «Deploy from a branch», `main` / `docs/`** (so in GitHub eingestellt). Workflow `.github/workflows/pages.yml` entfernt. Hinweis auf die GitHub-Bedingungen (keine vorwiegend geschäftlichen Seiten) wurde gegeben.
 - [ ] F-02 easybooking: Welcher Link kommt auf die Seite? Der Vorschau-Link ist intern und nicht für Gäste geeignet.
 - [x] F-03 Studio ROSELINE (easybooking-Kategorie 24) auf die Website? – **Nein** (Entscheid Vreny 6.11.2026): kein Text, kein Bild, kein Link.
-- [ ] F-04 Impressum und Datenschutz fehlen noch.
+- [x] F-04 Impressum und Datenschutz – umgesetzt als Entwurf (A-09).
+- [ ] F-06 Kontaktformular auf der Startseite verschickt nichts (Knopf ohne Funktion): ersetzen durch E-Mail-Knopf, entfernen oder mit Formulardienst einrichten? – wer entscheidet: Vreny
+- [ ] F-07 Google Fonts selbst hosten (keine Übermittlung an Google) oder so lassen? – wer entscheidet: Vreny
 - [x] F-05 (erledigt 5.11.2026: drei Südzimmer-Fotos von Vreny eingesetzt – `efeu-suedzimmer.jpg` als Hauptfoto, `-balkon`, `-lavabo`; vertauschte Fotos getauscht) Fotos Chalet EFEU passten nicht zur Beschreibung: Das Hauptfoto «Südzimmer» (`6cc9b0e4…`) und «Südzimmer mit Lavabo» (`2885bc79…`) zeigen das Chalet von aussen; «Wohnraum mit Sofas» (`ec4f2f5a…`) und «Einzelzimmer mit Natursteinwand» (`66cc5485…`) sind vertauscht. Vermutlich schon so im Entwurf (nicht im Canvas geprüft). Richtiges Südzimmer-Foto auswählen (Ordner OneDrive\Bilder\Bilder\apartments\Efeu).
 
 ## 7. Änderungsprotokoll
@@ -102,3 +115,4 @@ Domain: `https://pfuenderli-graechen.ch`
 |---|---|---|
 | 0.1 | 5.11.2026 | Erste Fassung: SEO (A-01 bis A-06), Adresse (A-07) |
 | 0.2 | 6.11.2026 | Hosting auf `docs/` umgestellt (F-01); A-08 z'Pfünderli-Seite; F-03 Roseline: nein. Übernommen aus dem versehentlich benutzten Ordner `OneDrive\Documents\Claude\website\pfuenderli-graechen` |
+| 0.3 | 6.11.2026 | A-09 Impressum und Datenschutz (Entwurf); neue Fragen F-06 Kontaktformular, F-07 Google Fonts |
