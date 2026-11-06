@@ -31,10 +31,26 @@
   <url>
     <loc>https://pfuenderli-graechen.ch/impressum.html</loc>
     <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pfuenderli-graechen.ch/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pfuenderli-graechen.ch/en/impressum.html"/>
+  </url>
+  <url>
+    <loc>https://pfuenderli-graechen.ch/en/impressum.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pfuenderli-graechen.ch/impressum.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pfuenderli-graechen.ch/en/impressum.html"/>
   </url>
   <url>
     <loc>https://pfuenderli-graechen.ch/datenschutz.html</loc>
     <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pfuenderli-graechen.ch/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pfuenderli-graechen.ch/en/datenschutz.html"/>
+  </url>
+  <url>
+    <loc>https://pfuenderli-graechen.ch/en/datenschutz.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pfuenderli-graechen.ch/datenschutz.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pfuenderli-graechen.ch/en/datenschutz.html"/>
   </url>
   <url>
     <loc>https://pfuenderli-graechen.ch/en/</loc>

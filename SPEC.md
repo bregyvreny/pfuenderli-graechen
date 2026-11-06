@@ -84,7 +84,7 @@ Domain: `https://pfuenderli-graechen.ch`
 
 ### A-09 Impressum und Datenschutzerklärung
 - Priorität: Muss · Status: Entwurf umgesetzt (6.11.2026), Freigabe durch Vreny ausstehend
-- Seiten `docs/impressum.html` und `docs/datenschutz.html` (Deutsch; englische Fassung folgt), verlinkt in der Fusszeile der Startseiten DE/EN und der z'Pfünderli-Seite. Grundlage: Schweizer Datenschutzgesetz (DSG). Kein Rechtsrat – im Zweifel Fachperson beiziehen.
+- Seiten `docs/impressum.html` und `docs/datenschutz.html`, englisch `docs/en/impressum.html` und `docs/en/datenschutz.html` (Übersetzung, im Zweifel gilt die deutsche Fassung; mit hreflang verknüpft), verlinkt in der Fusszeile der Startseiten DE/EN und der z'Pfünderli-Seite. Grundlage: Schweizer Datenschutzgesetz (DSG). Kein Rechtsrat – im Zweifel Fachperson beiziehen.
 - Angaben von Vreny (6.11.2026): Im Handelsregister eingetragen, Firmenname «Verena Bregy», 3925 Grächen, Swiss-Knife-Shop; MWST-Nr. CHE-105.731.005. Die ESTV-ID wird nicht veröffentlicht (interne Nummer der Steuerverwaltung).
 - Annahmen (bestätigen lassen): Adresse der Firma Dorfstrasse 152; Verantwortliche Person Verena Bregy; Firmenname und UID nicht in Zefix nachgeprüft.
 - Datenschutz nennt den Ist-Zustand: Hosting GitHub Pages (USA, Server-Logs), Schriften selbst gehostet (F-07), Kontakt per E-Mail/Telefon/WhatsApp, keine Cookies, keine Analyse-Werkzeuge. Kein Kontaktformular, nur E-Mail-Knopf (F-06).
@@ -129,3 +129,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.3 | 6.11.2026 | A-09 Impressum und Datenschutz (Entwurf); neue Fragen F-06 Kontaktformular, F-07 Google Fonts |
 | 0.4 | 6.11.2026 | F-07: Schriften selbst gehostet, keine Verbindung zu Google mehr |
 | 0.5 | 6.11.2026 | A-10 Startseite: Ferienwohnungen und z'Pfünderli gleich gewichtet |
+| 0.6 | 6.11.2026 | A-09: Impressum und Datenschutz auch auf Englisch |
