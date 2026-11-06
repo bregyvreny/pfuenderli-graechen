@@ -87,7 +87,7 @@ Domain: `https://pfuenderli-graechen.ch`
 - Seiten `docs/impressum.html` und `docs/datenschutz.html` (Deutsch; englische Fassung folgt), verlinkt in der Fusszeile der Startseiten DE/EN und der z'Pfünderli-Seite. Grundlage: Schweizer Datenschutzgesetz (DSG). Kein Rechtsrat – im Zweifel Fachperson beiziehen.
 - Angaben von Vreny (6.11.2026): Im Handelsregister eingetragen, Firmenname «Verena Bregy», 3925 Grächen, Swiss-Knife-Shop; MWST-Nr. CHE-105.731.005. Die ESTV-ID wird nicht veröffentlicht (interne Nummer der Steuerverwaltung).
 - Annahmen (bestätigen lassen): Adresse der Firma Dorfstrasse 152; Verantwortliche Person Verena Bregy; Firmenname und UID nicht in Zefix nachgeprüft.
-- Datenschutz nennt den Ist-Zustand: Hosting GitHub Pages (USA, Server-Logs), Schriften selbst gehostet (F-07), Kontakt per E-Mail/Telefon/WhatsApp, keine Cookies, keine Analyse-Werkzeuge. Das Kontaktformular verschickt keine Daten (siehe F-06).
+- Datenschutz nennt den Ist-Zustand: Hosting GitHub Pages (USA, Server-Logs), Schriften selbst gehostet (F-07), Kontakt per E-Mail/Telefon/WhatsApp, keine Cookies, keine Analyse-Werkzeuge. Kein Kontaktformular, nur E-Mail-Knopf (F-06).
 - Abnahmekriterien:
   - [x] Beide Seiten existieren, sind in der Fusszeile verlinkt und in `sitemap.xml`
   - [x] Keine erfundenen Angaben; alle Firmenangaben stammen von Vreny
@@ -106,7 +106,7 @@ Domain: `https://pfuenderli-graechen.ch`
 - [ ] F-02 easybooking: Welcher Link kommt auf die Seite? Der Vorschau-Link ist intern und nicht für Gäste geeignet.
 - [x] F-03 Studio ROSELINE (easybooking-Kategorie 24) auf die Website? – **Nein** (Entscheid Vreny 6.11.2026): kein Text, kein Bild, kein Link.
 - [x] F-04 Impressum und Datenschutz – umgesetzt als Entwurf (A-09).
-- [ ] F-06 Kontaktformular auf der Startseite verschickt nichts (Knopf ohne Funktion): ersetzen durch E-Mail-Knopf, entfernen oder mit Formulardienst einrichten? – wer entscheidet: Vreny
+- [x] F-06 Kontaktformular verschickte nichts – **durch Knopf «E-Mail schreiben» ersetzt** (mailto an brv@bluewin.ch, DE/EN; Entscheid Vreny 6.11.2026).
 - [x] F-07 Google Fonts – **selbst gehostet** (Entscheid Vreny 6.11.2026): `docs/assets/fonts/` + `docs/css/fonts.css`, nur Zeichensätze latin und latin-ext. Datenschutzerklärung angepasst.
 - [x] F-05 (erledigt 5.11.2026: drei Südzimmer-Fotos von Vreny eingesetzt – `efeu-suedzimmer.jpg` als Hauptfoto, `-balkon`, `-lavabo`; vertauschte Fotos getauscht) Fotos Chalet EFEU passten nicht zur Beschreibung: Das Hauptfoto «Südzimmer» (`6cc9b0e4…`) und «Südzimmer mit Lavabo» (`2885bc79…`) zeigen das Chalet von aussen; «Wohnraum mit Sofas» (`ec4f2f5a…`) und «Einzelzimmer mit Natursteinwand» (`66cc5485…`) sind vertauscht. Vermutlich schon so im Entwurf (nicht im Canvas geprüft). Richtiges Südzimmer-Foto auswählen (Ordner OneDrive\Bilder\Bilder\apartments\Efeu).
 
