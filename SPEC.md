@@ -83,15 +83,15 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Englische Fassung `docs/en/pfuenderli.html` (6.11.2026; Schweizer Produktnamen wie Gipfeli, Zopf, Greecherli bleiben, mit englischer Erklärung)
 
 ### A-09 Impressum und Datenschutzerklärung
-- Priorität: Muss · Status: Entwurf umgesetzt (6.11.2026), Freigabe durch Vreny ausstehend
+- Priorität: Muss · Status: freigegeben (Vreny, 6.11.2026)
 - Seiten `docs/impressum.html` und `docs/datenschutz.html`, englisch `docs/en/impressum.html` und `docs/en/datenschutz.html` (Übersetzung, im Zweifel gilt die deutsche Fassung; mit hreflang verknüpft), verlinkt in der Fusszeile der Startseiten DE/EN und der z'Pfünderli-Seite. Grundlage: Schweizer Datenschutzgesetz (DSG). Kein Rechtsrat – im Zweifel Fachperson beiziehen.
 - Angaben von Vreny (6.11.2026): Im Handelsregister eingetragen, Firmenname «Verena Bregy», 3925 Grächen, Swiss-Knife-Shop; MWST-Nr. CHE-105.731.005. Die ESTV-ID wird nicht veröffentlicht (interne Nummer der Steuerverwaltung).
-- Annahmen (bestätigen lassen): Adresse der Firma Dorfstrasse 152; Verantwortliche Person Verena Bregy; Firmenname und UID nicht in Zefix nachgeprüft.
+- Bestätigt (6.11.2026): Adresse Swiss-Knife-Shop, Verena Bregy, Dorfstrasse 152, 3925 Grächen; MWST-Nr. von Vreny geprüft.
 - Datenschutz nennt den Ist-Zustand: Hosting GitHub Pages (USA, Server-Logs), Schriften selbst gehostet (F-07), Kontakt per E-Mail/Telefon/WhatsApp, keine Cookies, keine Analyse-Werkzeuge. Kein Kontaktformular, nur E-Mail-Knopf (F-06).
 - Abnahmekriterien:
   - [x] Beide Seiten existieren, sind in der Fusszeile verlinkt und in `sitemap.xml`
   - [x] Keine erfundenen Angaben; alle Firmenangaben stammen von Vreny
-  - [ ] Von Vreny gelesen und freigegeben
+  - [x] Von Vreny gelesen und freigegeben (6.11.2026)
 
 ### A-10 Startseite: Ferienwohnungen und z'Pfünderli gleich gewichtet
 - Priorität: Muss · Status: umgesetzt (6.11.2026), in der Vorschau geprüft; Freigabe durch Vreny ausstehend
