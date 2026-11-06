@@ -105,7 +105,7 @@ Domain: `https://pfuenderli-graechen.ch`
   - Hinweis: Der Schliessungshinweis «bis 12. Dezember 2026» steht auch im Titelbild – nach dem 12.12. an beiden Stellen entfernen.
 
 ### A-11 Online-Buchung mit easybooking
-- Priorität: Muss · Status: online geprüft (6.11.2026)
+- Priorität: Muss · Status: online geprüft (6.11.2026); Testbuchung durch Vreny erfolgreich
 - Einbaucode von Vreny (easybooking, Kunden-ID 7233, Seriennummer 7639-1754-6482) im Abschnitt «Online buchen» der Startseite DE (`localeId 2`) und EN (`localeId 1`, noch nicht bestätigt). Farben an die Website angepasst: Hintergrund `#2E5A44`, Schrift `#FFFFFF` (geliefert: `#fe9200` / `#000000`).
 - Entscheide Vreny (6.11.2026): Studio ROSELINE darf in der Buchungsmaske erscheinen (der Einbaucode hat keinen Filter); grüne Farben; DE und EN.
 - Lokal nicht testbar: easybooking lässt nur freigegebene Webadressen zu (CORS-Fehler auf localhost).
