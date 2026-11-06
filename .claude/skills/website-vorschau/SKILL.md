@@ -15,13 +15,13 @@ Ein Server ist besser als `index.html` direkt zu öffnen (relative Pfade, Fetch,
      "version": "0.0.1",
      "configurations": [
        { "name": "website", "runtimeExecutable": "npx",
-         "runtimeArgs": ["--yes", "serve@14.2.4", "-l", "5500", "public"], "port": 5500 }
+         "runtimeArgs": ["--yes", "serve@14.2.4", "-l", "5510", "docs"], "port": 5510 }
      ]
    }
    ```
    Alternative ohne Node.js, falls Python installiert ist:
-   `"runtimeExecutable": "python", "runtimeArgs": ["-m", "http.server", "5500", "-d", "public"]`
-   Der Server muss den Ordner `public/` als Wurzel haben (wie Netlify).
+   `"runtimeExecutable": "python", "runtimeArgs": ["-m", "http.server", "5510", "-d", "docs"]`
+   Der Server muss den Ordner `docs/` als Wurzel haben (wie GitHub Pages). Auf diesem PC (ohne Node/Python): `.claude/serve.ps1` über `.claude/launch.json`, Port 5510.
    Vorher mit `Get-Command node, python` prüfen, was vorhanden ist. Wenn nichts installiert ist, dem Benutzer erklären, wie Node.js installiert wird.
 2. Mit dem Browser-Vorschau-Tool (`preview_start`, Name `website`) starten.
 

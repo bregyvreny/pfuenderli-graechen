@@ -8,11 +8,11 @@ Website für die drei Ferienwohnungen von Vreny & Michel Bregy-Brigger in Gräch
 ## 2. Seiten (Sitemap)
 | Seite | Datei | Zweck |
 |---|---|---|
-| Startseite DE | `public/index.html` | Übersicht, Wohnungen, Lage, Preise, Kontakt |
-| Chalet EFEU | `public/efeu.html` | Detailseite |
-| Apartment EGGERI | `public/eggeri.html` | Detailseite |
-| Kornstadel ARIDA PRATA | `public/arida.html` | Detailseite |
-| Englisch | `public/en/…` | gleiche Seiten auf Englisch |
+| Startseite DE | `docs/index.html` | Übersicht, Wohnungen, Lage, Preise, Kontakt |
+| Chalet EFEU | `docs/efeu.html` | Detailseite |
+| Apartment EGGERI | `docs/eggeri.html` | Detailseite |
+| Kornstadel ARIDA PRATA | `docs/arida.html` | Detailseite |
+| Englisch | `docs/en/…` | gleiche Seiten auf Englisch |
 
 Domain: `https://pfuenderli-graechen.ch`
 
@@ -34,8 +34,8 @@ Domain: `https://pfuenderli-graechen.ch`
 ### A-03 sitemap.xml und robots.txt
 - Priorität: Muss · Status: geprüft
 - Abnahmekriterien:
-  - [x] `public/sitemap.xml` listet alle 8 Seiten mit voller Adresse.
-  - [x] `public/robots.txt` erlaubt alles und verweist auf die Sitemap.
+  - [x] `docs/sitemap.xml` listet alle 8 Seiten mit voller Adresse.
+  - [x] `docs/robots.txt` erlaubt alles und verweist auf die Sitemap.
 
 ### A-04 Unterkunftsdaten für Google (strukturierte Daten)
 - Priorität: Soll · Status: geprüft
@@ -72,7 +72,7 @@ Domain: `https://pfuenderli-graechen.ch`
 - Google Search Console, Google-Unternehmensprofil, Weiterleitung alte Domain → erledigt Vreny (siehe `vreny-todos.txt`)
 
 ## 6. Offene Fragen
-- [x] F-01 Hosting: Entscheid 5.11.2026 – GitHub Pages mit Workflow `.github/workflows/pages.yml`, veröffentlicht nur `public/`. Hinweis auf die GitHub-Bedingungen (keine vorwiegend geschäftlichen Seiten) wurde gegeben.
+- [x] F-01 Hosting: Entscheid 5.11.2026 GitHub Actions mit `public/`; **geändert 6.11.2026: GitHub Pages «Deploy from a branch», `main` / `docs/`** (so in GitHub eingestellt). Workflow `.github/workflows/pages.yml` entfernt. Hinweis auf die GitHub-Bedingungen (keine vorwiegend geschäftlichen Seiten) wurde gegeben.
 - [ ] F-02 easybooking: Welcher Link kommt auf die Seite? Der Vorschau-Link ist intern und nicht für Gäste geeignet.
 - [ ] F-03 Studio ROSELINE (easybooking-Kategorie 24) auf die Website?
 - [ ] F-04 Impressum und Datenschutz fehlen noch.

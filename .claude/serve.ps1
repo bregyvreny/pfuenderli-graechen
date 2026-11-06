@@ -1,7 +1,7 @@
 # Minimaler lokaler Webserver für die Vorschau (ohne Node/Python).
-# Liefert den Ordner public/ unter http://localhost:5500/ aus – wie Netlify.
-param([int]$Port = 5500)
-$root = (Resolve-Path (Join-Path $PSScriptRoot '..\public')).Path
+# Liefert den Ordner docs/ unter http://localhost:5510/ aus – wie GitHub Pages.
+param([int]$Port = 5510)
+$root = (Resolve-Path (Join-Path $PSScriptRoot '..\docs')).Path
 $types = @{ '.html'='text/html; charset=utf-8'; '.css'='text/css'; '.js'='text/javascript'; '.jpg'='image/jpeg';
             '.jpeg'='image/jpeg'; '.png'='image/png'; '.gif'='image/gif'; '.svg'='image/svg+xml'; '.webp'='image/webp';
             '.ico'='image/x-icon'; '.txt'='text/plain'; '.xml'='application/xml'; '.woff2'='font/woff2' }

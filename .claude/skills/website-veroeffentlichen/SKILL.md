@@ -34,8 +34,8 @@ Welche Option gilt, entscheidet der Benutzer. Die Wahl in `SPEC.md` festhalten.
 ## Technik
 
 - Reines **HTML + CSS + wenig JavaScript**, keine Build-Tools. Läuft bei allen Optionen ohne Build-Schritt.
-- **Entschieden (5.11.2026): GitHub Pages über GitHub Actions.** Website-Dateien liegen in `public/`; der Workflow `.github/workflows/pages.yml` veröffentlicht bei jedem Push auf `main` nur diesen Ordner. In GitHub muss unter *Settings → Pages → Source* «GitHub Actions» gewählt sein. Die Datei `CNAME` im Hauptordner ist bei dieser Methode wirkungslos; die eigene Domain wird unter *Settings → Pages → Custom domain* verwaltet.
-- Risiko: GitHub Pages ist laut Nutzungsbedingungen nicht für Seiten mit vorwiegend geschäftlichem Zweck gedacht. Bei Problemen auf Cloudflare ausweichen (Ausgabe-Ordner `public/`, kein Build-Befehl).
+- **Entschieden (6.11.2026): GitHub Pages aus dem Ordner `docs/`.** In GitHub: *Settings → Pages → Source* «Deploy from a branch», Branch `main`, Ordner `/docs`. Jeder Push auf `main` geht automatisch online. Pflichtdateien: `docs/CNAME` (Inhalt `pfuenderli-graechen.ch`), `docs/.nojekyll`, `docs/index.html`. (Bis 5.11.2026 lag die Website in `public/` und wurde per GitHub Actions veröffentlicht – der Workflow ist entfernt.)
+- Risiko: GitHub Pages ist laut Nutzungsbedingungen nicht für Seiten mit vorwiegend geschäftlichem Zweck gedacht. Bei Problemen auf Cloudflare ausweichen (Ausgabe-Ordner `docs/`, kein Build-Befehl).
 - Pfade in den Seiten absolut ab Root (`/assets/img/…`, `/en/`), damit sie auf allen Unterseiten gleich funktionieren. Lokal deshalb immer über einen Server testen (Skill `website-vorschau`), nicht per Doppelklick.
 - Keine serverseitige Sprache (PHP) einsetzen, solange Option A möglich bleiben soll.
 - Formulare: bei Option A Netlify Forms bzw. externer Dienst; bei Option B wäre PHP möglich – erst nach Entscheidung.
