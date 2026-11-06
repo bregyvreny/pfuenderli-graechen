@@ -104,6 +104,19 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Navigation «z'Pfünderli» führt direkt auf `pfuenderli.html`
   - Hinweis: Der Schliessungshinweis «bis 12. Dezember 2026» steht auch im Titelbild – nach dem 12.12. an beiden Stellen entfernen.
 
+### A-11 Online-Buchung mit easybooking
+- Priorität: Muss · Status: eingebaut (6.11.2026), Test online ausstehend
+- Einbaucode von Vreny (easybooking, Kunden-ID 7233, Seriennummer 7639-1754-6482) im Abschnitt «Online buchen» der Startseite DE (`localeId 2`) und EN (`localeId 1`, noch nicht bestätigt). Farben an die Website angepasst: Hintergrund `#2E5A44`, Schrift `#FFFFFF` (geliefert: `#fe9200` / `#000000`).
+- Entscheide Vreny (6.11.2026): Studio ROSELINE darf in der Buchungsmaske erscheinen (der Einbaucode hat keinen Filter); grüne Farben; DE und EN.
+- Lokal nicht testbar: easybooking lässt nur freigegebene Webadressen zu (CORS-Fehler auf localhost).
+- Datenschutzerklärung DE/EN um Abschnitt «Online-Buchung über easybooking» ergänzt.
+- Abnahmekriterien:
+  - [ ] Auf https://pfuenderli-graechen.ch lädt die Buchungsmaske (DE) ohne Fehlermeldung
+  - [ ] Englische Startseite zeigt die Buchungsmaske auf Englisch (localeId 1 bestätigt)
+  - [ ] Farben gut lesbar
+  - [ ] Datenschutzerklärung stimmt mit dem tatsächlichen Verhalten überein (Cookies, Dienste) – nach dem Online-Test prüfen
+- Nicht gelöst: Die Suchleiste oben (Wohnung, Anreise, Abreise, Gäste) gibt ihre Auswahl nicht an easybooking weiter; der Knopf springt nur zum Buchungsbereich.
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -114,8 +127,8 @@ Domain: `https://pfuenderli-graechen.ch`
 
 ## 6. Offene Fragen
 - [x] F-01 Hosting: Entscheid 5.11.2026 GitHub Actions mit `public/`; **geändert 6.11.2026: GitHub Pages «Deploy from a branch», `main` / `docs/`** (so in GitHub eingestellt). Workflow `.github/workflows/pages.yml` entfernt. Hinweis auf die GitHub-Bedingungen (keine vorwiegend geschäftlichen Seiten) wurde gegeben.
-- [ ] F-02 easybooking: Welcher Link kommt auf die Seite? Der Vorschau-Link ist intern und nicht für Gäste geeignet.
-- [x] F-03 Studio ROSELINE (easybooking-Kategorie 24) auf die Website? – **Nein** (Entscheid Vreny 6.11.2026): kein Text, kein Bild, kein Link.
+- [x] F-02 easybooking – Einbaucode von Vreny erhalten (6.11.2026), eingebaut als A-11.
+- [x] F-03 Studio ROSELINE (easybooking-Kategorie 24) auf die Website? – **Nein** (Entscheid Vreny 6.11.2026): kein Text, kein Bild, kein Link. Ausnahme: In der easybooking-Buchungsmaske darf Roseline erscheinen (Entscheid 6.11.2026).
 - [x] F-04 Impressum und Datenschutz – umgesetzt als Entwurf (A-09).
 - [x] F-06 Kontaktformular verschickte nichts – **durch Knopf «E-Mail schreiben» ersetzt** (mailto an brv@bluewin.ch, DE/EN; Entscheid Vreny 6.11.2026).
 - [x] F-07 Google Fonts – **selbst gehostet** (Entscheid Vreny 6.11.2026): `docs/assets/fonts/` + `docs/css/fonts.css`, nur Zeichensätze latin und latin-ext. Datenschutzerklärung angepasst.
@@ -131,3 +144,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.5 | 6.11.2026 | A-10 Startseite: Ferienwohnungen und z'Pfünderli gleich gewichtet |
 | 0.6 | 6.11.2026 | A-09: Impressum und Datenschutz auch auf Englisch |
 | 0.7 | 6.11.2026 | A-08: z'Pfünderli-Seite auf Englisch |
+| 0.8 | 6.11.2026 | A-11 easybooking-Buchungsmaske eingebaut (Test online ausstehend), F-02 erledigt |

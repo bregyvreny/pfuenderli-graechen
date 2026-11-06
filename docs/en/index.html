@@ -303,12 +303,29 @@ input,select,textarea{font:inherit}
 </div>
 <p style="margin: 0; color: #55605A; max-width: 420px">Live availability and prices – booked securely through our booking system.</p>
 </div>
-<div class="ph" style="min-height: 520px; border-radius: 10px; border: 2px dashed #9C978C; align-items: center; justify-content: center">
-<div style="background: #FFFFFF; border-radius: 8px; padding: 24px 28px; max-width: 520px; text-align: center; display: flex; flex-direction: column; gap: 8px; margin: 24px">
-<strong style="font-family: Archivo, sans-serif; font-size: 20px">Space for the easybooking booking widget</strong>
-<span style="color: #55605A">The availability calendar, prices and online booking for all three apartments will appear here. Use the English version of the widget code from your easybooking account (Web widgets).</span>
-</div>
-</div>
+<!-- SPEC A-11 easybooking-Buchungsmaske (Einbaucode von easybooking, Farben an die Website angepasst) -->
+<div id="ebFrontEndFrame" style="min-height: 520px"></div>
+<noscript><p style="color: #55605A">Please enable JavaScript to book online – or send an enquiry to brv@bluewin.ch</p></noscript>
+<script src="https://www.easy-booking.at/bookingengine2/js/jquery.easybooking.frontend.js"></script>
+<script>
+function ebFrontendLoadedCheck() {
+  if (typeof jQuery != "undefined" && jQuery.fn.ebFrontEnd) {
+    jQuery("#ebFrontEndFrame").ebFrontEnd({
+      customerId: 7233,
+      serialNo: "7639-1754-6482",
+      localeId: 1,
+      frameId: "ebFrontEndPlugin",
+      encapsulated: true,
+      backgroundColor: "#2E5A44",
+      fontColor: "#FFFFFF"
+    });
+  } else {
+    setTimeout(ebFrontendLoadedCheck, 200);
+  }
+}
+ebFrontendLoadedCheck();
+</script>
+
 </section>
 
 <section id="preise" style="background: #FFFFFF; border-top: 1px solid #E2DFD7; border-bottom: 1px solid #E2DFD7">
