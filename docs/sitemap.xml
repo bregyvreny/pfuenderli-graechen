@@ -27,6 +27,14 @@
   <url>
     <loc>https://pfuenderli-graechen.ch/pfuenderli.html</loc>
     <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pfuenderli-graechen.ch/pfuenderli.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pfuenderli-graechen.ch/en/pfuenderli.html"/>
+  </url>
+  <url>
+    <loc>https://pfuenderli-graechen.ch/en/pfuenderli.html</loc>
+    <lastmod>2026-11-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pfuenderli-graechen.ch/pfuenderli.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pfuenderli-graechen.ch/en/pfuenderli.html"/>
   </url>
   <url>
     <loc>https://pfuenderli-graechen.ch/impressum.html</loc>

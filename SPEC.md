@@ -66,7 +66,7 @@ Domain: `https://pfuenderli-graechen.ch`
 
 ### A-08 Seite z'Pfünderli – Bistro & Brotladen, Swiss-Knife-Shop
 - Priorität: Muss · Status: umgesetzt (6.11.2026), von Vreny laufend durchgesehen
-- Eigene Seite `docs/pfuenderli.html` mit Stylesheet `docs/css/pfuenderli.css`, Fotos in `docs/assets/img/pfuenderli/` und `docs/assets/img/shop/`. Verlinkt aus dem z'Pfünderli-Abschnitt der Startseite (DE und EN), in `sitemap.xml`. Englische Fassung folgt.
+- Eigene Seite `docs/pfuenderli.html` mit Stylesheet `docs/css/pfuenderli.css`, Fotos in `docs/assets/img/pfuenderli/` und `docs/assets/img/shop/`. Verlinkt aus dem z'Pfünderli-Abschnitt der Startseite (DE und EN), in `sitemap.xml`. Englische Fassung `docs/en/pfuenderli.html`, mit hreflang verknüpft.
 - Quellen: `Geschäft\Bä\Preisliste-2026.xls` (Brotladen & Take-away), `Geschäft\Bä\Menukarte-Winter-2026-druck.docx` und `Menukarte-Nachdruck-Sommer-2026.docx` (Bistro).
 - Entscheide von Vreny (6.11.2026):
   - Schreibweise überall «z'Pfünderli» (grosses P).
@@ -80,7 +80,7 @@ Domain: `https://pfuenderli-graechen.ch`
 - Abnahmekriterien:
   - [x] Seite lädt ohne fehlende Bilder, kein seitliches Scrollen auf 375 px
   - [x] Link von der Startseite DE/EN, Eintrag in `sitemap.xml`
-  - [ ] Englische Fassung `docs/en/pfuenderli.html`
+  - [x] Englische Fassung `docs/en/pfuenderli.html` (6.11.2026; Schweizer Produktnamen wie Gipfeli, Zopf, Greecherli bleiben, mit englischer Erklärung)
 
 ### A-09 Impressum und Datenschutzerklärung
 - Priorität: Muss · Status: Entwurf umgesetzt (6.11.2026), Freigabe durch Vreny ausstehend
@@ -130,3 +130,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.4 | 6.11.2026 | F-07: Schriften selbst gehostet, keine Verbindung zu Google mehr |
 | 0.5 | 6.11.2026 | A-10 Startseite: Ferienwohnungen und z'Pfünderli gleich gewichtet |
 | 0.6 | 6.11.2026 | A-09: Impressum und Datenschutz auch auf Englisch |
+| 0.7 | 6.11.2026 | A-08: z'Pfünderli-Seite auf Englisch |
