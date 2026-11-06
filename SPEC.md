@@ -93,6 +93,17 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Keine erfundenen Angaben; alle Firmenangaben stammen von Vreny
   - [ ] Von Vreny gelesen und freigegeben
 
+### A-10 Startseite: Ferienwohnungen und z'Pfünderli gleich gewichtet
+- Priorität: Muss · Status: umgesetzt (6.11.2026), in der Vorschau geprüft; Freigabe durch Vreny ausstehend
+- Ziel: Wer nur den Brotladen sucht, stösst sofort auf das z'Pfünderli.
+- Entscheide Vreny (6.11.2026): geteiltes Titelbild; Name oben links und Google-Titel nennen beide.
+- Abnahmekriterien:
+  - [x] Titelbild oben zweigeteilt (Desktop nebeneinander, Handy untereinander): links Ferienwohnungen mit Knopf «Wohnungen ansehen», rechts z'Pfünderli (Bistro & Brotladen, Swiss-Knife-Shop, Öffnungszeiten) mit Knopf zu `pfuenderli.html` – DE und EN
+  - [x] Name oben links «apartments bregy · z'Pfünderli» auf allen Seiten mit dieser Kopfzeile
+  - [x] Seitentitel und Beschreibung der Startseiten DE/EN nennen beide (Titel ≤ 70 Zeichen)
+  - [x] Navigation «z'Pfünderli» führt direkt auf `pfuenderli.html`
+  - Hinweis: Der Schliessungshinweis «bis 12. Dezember 2026» steht auch im Titelbild – nach dem 12.12. an beiden Stellen entfernen.
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -117,3 +128,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.2 | 6.11.2026 | Hosting auf `docs/` umgestellt (F-01); A-08 z'Pfünderli-Seite; F-03 Roseline: nein. Übernommen aus dem versehentlich benutzten Ordner `OneDrive\Documents\Claude\website\pfuenderli-graechen` |
 | 0.3 | 6.11.2026 | A-09 Impressum und Datenschutz (Entwurf); neue Fragen F-06 Kontaktformular, F-07 Google Fonts |
 | 0.4 | 6.11.2026 | F-07: Schriften selbst gehostet, keine Verbindung zu Google mehr |
+| 0.5 | 6.11.2026 | A-10 Startseite: Ferienwohnungen und z'Pfünderli gleich gewichtet |
