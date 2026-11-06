@@ -1,6 +1,6 @@
 # Spezifikation: apartments bregy – Website
 
-Status: Freigegeben (A-01 bis A-07)   ·   Version: 0.1   ·   Stand: 5.11.2026
+Status: Freigegeben (A-01 bis A-08)   ·   Version: 0.2   ·   Stand: 6.11.2026
 
 ## 1. Ziel und Zielgruppe
 Website für die drei Ferienwohnungen von Vreny & Michel Bregy-Brigger in Grächen (Wallis). Gäste sollen sich über die Wohnungen informieren und buchen bzw. anfragen können. Sprachen: Deutsch und Englisch.
@@ -12,6 +12,7 @@ Website für die drei Ferienwohnungen von Vreny & Michel Bregy-Brigger in Gräch
 | Chalet EFEU | `docs/efeu.html` | Detailseite |
 | Apartment EGGERI | `docs/eggeri.html` | Detailseite |
 | Kornstadel ARIDA PRATA | `docs/arida.html` | Detailseite |
+| z'Pfünderli | `docs/pfuenderli.html` | Bistro, Brotladen, Swiss-Knife-Shop (A-08) |
 | Englisch | `docs/en/…` | gleiche Seiten auf Englisch |
 
 Domain: `https://pfuenderli-graechen.ch`
@@ -63,6 +64,24 @@ Domain: `https://pfuenderli-graechen.ch`
 - Abnahmekriterien:
   - [x] Auf keiner Seite steht mehr «Halbsucht 273»; überall «Dorfstrasse 152, 3925 Grächen».
 
+### A-08 Seite z'Pfünderli – Bistro & Brotladen, Swiss-Knife-Shop
+- Priorität: Muss · Status: umgesetzt (6.11.2026), von Vreny laufend durchgesehen
+- Eigene Seite `docs/pfuenderli.html` mit Stylesheet `docs/css/pfuenderli.css`, Fotos in `docs/assets/img/pfuenderli/` und `docs/assets/img/shop/`. Verlinkt aus dem z'Pfünderli-Abschnitt der Startseite (DE und EN), in `sitemap.xml`. Englische Fassung folgt.
+- Quellen: `Geschäft\Bä\Preisliste-2026.xls` (Brotladen & Take-away), `Geschäft\Bä\Menukarte-Winter-2026-druck.docx` und `Menukarte-Nachdruck-Sommer-2026.docx` (Bistro).
+- Entscheide von Vreny (6.11.2026):
+  - Schreibweise überall «z'Pfünderli» (grosses P).
+  - Adresse: z'Pfünderli, Brotladen & Bistro, Dorfstrasse 152, 3925 Grächen. Telefon +41 79 695 54 32, pfuenderli@bluewin.ch. Öffnungszeiten täglich 06.59–19.01 Uhr; Hinweis «Bis 12. Dezember 2026 geschlossen» (danach entfernen).
+  - Mit Preisen; ohne Preis («Preis im Laden»): Eier, Käse, Fondue, Wein im Direktverkauf. Vermerk «Preise in CHF, Stand Sommer 2026, Änderungen vorbehalten».
+  - Preisdetails: Konfitüre 200 g 5.00 / 300 g 7.00; Sirup 0,5 l 8.00; Tartelettes klein 3.50 / gross 8.50; Sandwiches 5.00–6.50; Roggenbrot natur 250 g 3.00 / 500 g 5.00 / 1000 g 8.50; Roggenbrot Früchte/Nüsse 500 g 6.00 / 1000 g 9.50.
+  - Entfernt: Greecherli warm mit Rahm, Ciabatta-Sandwichbrötli, Schoko-Donut, Schoko-Muffin (Chocofan).
+  - Pizza, Sandwiches und Hot-Dogs auch Take-away.
+  - Swiss-Knife-Shop: nur Victorinox – Taschenmesser, Taschenwerkzeuge, Küchenmesser (Profi und privat), Küchenhilfen (Schäler, Schneidebretter, Rüstmesser, Scheren usw.). Keine Taschen/Rucksäcke, keine Parfüms (nicht mehr im Sortiment) – entsprechende Fotos nicht verwenden.
+  - Nicht verwenden: Stockfoto `Weissbrot__174214.jpg` (Wasserzeichen).
+- Abnahmekriterien:
+  - [x] Seite lädt ohne fehlende Bilder, kein seitliches Scrollen auf 375 px
+  - [x] Link von der Startseite DE/EN, Eintrag in `sitemap.xml`
+  - [ ] Englische Fassung `docs/en/pfuenderli.html`
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -74,7 +93,7 @@ Domain: `https://pfuenderli-graechen.ch`
 ## 6. Offene Fragen
 - [x] F-01 Hosting: Entscheid 5.11.2026 GitHub Actions mit `public/`; **geändert 6.11.2026: GitHub Pages «Deploy from a branch», `main` / `docs/`** (so in GitHub eingestellt). Workflow `.github/workflows/pages.yml` entfernt. Hinweis auf die GitHub-Bedingungen (keine vorwiegend geschäftlichen Seiten) wurde gegeben.
 - [ ] F-02 easybooking: Welcher Link kommt auf die Seite? Der Vorschau-Link ist intern und nicht für Gäste geeignet.
-- [ ] F-03 Studio ROSELINE (easybooking-Kategorie 24) auf die Website?
+- [x] F-03 Studio ROSELINE (easybooking-Kategorie 24) auf die Website? – **Nein** (Entscheid Vreny 6.11.2026): kein Text, kein Bild, kein Link.
 - [ ] F-04 Impressum und Datenschutz fehlen noch.
 - [x] F-05 (erledigt 5.11.2026: drei Südzimmer-Fotos von Vreny eingesetzt – `efeu-suedzimmer.jpg` als Hauptfoto, `-balkon`, `-lavabo`; vertauschte Fotos getauscht) Fotos Chalet EFEU passten nicht zur Beschreibung: Das Hauptfoto «Südzimmer» (`6cc9b0e4…`) und «Südzimmer mit Lavabo» (`2885bc79…`) zeigen das Chalet von aussen; «Wohnraum mit Sofas» (`ec4f2f5a…`) und «Einzelzimmer mit Natursteinwand» (`66cc5485…`) sind vertauscht. Vermutlich schon so im Entwurf (nicht im Canvas geprüft). Richtiges Südzimmer-Foto auswählen (Ordner OneDrive\Bilder\Bilder\apartments\Efeu).
 
@@ -82,3 +101,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | Version | Datum | Änderung |
 |---|---|---|
 | 0.1 | 5.11.2026 | Erste Fassung: SEO (A-01 bis A-06), Adresse (A-07) |
+| 0.2 | 6.11.2026 | Hosting auf `docs/` umgestellt (F-01); A-08 z'Pfünderli-Seite; F-03 Roseline: nein. Übernommen aus dem versehentlich benutzten Ordner `OneDrive\Documents\Claude\website\pfuenderli-graechen` |

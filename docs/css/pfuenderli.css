@@ -1,0 +1,67 @@
+/* z'Pfünderli-Seite (SPEC A-08) – Farben wie die übrige Website */
+:root {
+  --farbe-haupt: #2E5A44;
+  --farbe-haupt-hover: #1C3A2B;
+  --farbe-akzent: #9A4A1F;
+  --farbe-grund: #F5F4F0;
+  --farbe-text: #1A1F1C;
+  --farbe-text-leise: #55605A;
+  --schrift-text: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --schrift-titel: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--farbe-grund); color: var(--farbe-text); font-family: var(--schrift-text); font-size: 17px; line-height: 1.55; }
+a { color: var(--farbe-haupt); }
+a:hover, a:focus-visible { color: var(--farbe-haupt-hover); }
+
+/* Kopfzeile wie auf der Startseite */
+.seitenkopf { background: #fff; border-bottom: 1px solid #E2DFD7; }
+.seitenkopf-innen { max-width: 1200px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+.marke { text-decoration: none; color: var(--farbe-text); display: flex; align-items: center; gap: 12px; }
+.marke-text { display: flex; flex-direction: column; line-height: 1.1; }
+.marke-name { font-family: var(--schrift-titel); font-weight: 800; font-size: 20px; letter-spacing: .02em; }
+.marke-ort { font-size: 13px; color: var(--farbe-text-leise); }
+.hauptnav { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 22px; font-weight: 600; font-size: 16px; }
+.hauptnav a { text-decoration: none; color: var(--farbe-text); padding: 10px 0; }
+.hauptnav a[aria-current="page"] { color: var(--farbe-haupt); text-decoration: underline; }
+.hauptnav .buchen { background: var(--farbe-haupt); color: #fff; padding: 12px 20px; border-radius: 6px; }
+
+img { max-width: 100%; height: auto; display: block; }
+.pf-kopf { position: relative; min-height: 340px; display: flex; align-items: flex-end; color: #fff; }
+.pf-kopf-bild { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.pf-kopf::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(20,30,25,.8), rgba(20,30,25,.1) 65%); }
+.pf-kopf-text { position: relative; z-index: 1; width: 100%; max-width: 72rem; margin: 0 auto; padding: 2rem 1rem; }
+.pf-kopf h1 { font-family: var(--schrift-titel); font-size: clamp(2.5rem, 8vw, 4.5rem); line-height: 1; margin: .25rem 0; }
+.pf-dachzeile, .pf-untertitel { margin: 0; font-size: 1.1rem; }
+.pf-sprung { position: sticky; top: 0; z-index: 5; background: var(--farbe-haupt); display: flex; flex-wrap: wrap; justify-content: center; gap: .25rem 1.5rem; padding: .6rem 1rem; }
+.pf-sprung a { color: #fff; text-decoration: none; font-weight: 600; padding: .25rem 0; }
+.pf-sprung a:hover, .pf-sprung a:focus-visible { text-decoration: underline; color: #fff; }
+.pf-inhalt { max-width: 72rem; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+.pf-inhalt h2 { font-family: var(--schrift-titel); color: var(--farbe-haupt); font-size: clamp(1.6rem, 4vw, 2.2rem); margin: 0 0 .5rem; }
+.pf-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; }
+.pf-info > div { background: #fff; border-radius: 10px; padding: 1rem 1.25rem; }
+.pf-info h2 { font-size: 1.2rem; }
+.pf-info p { margin: .25rem 0; }
+.pf-gross { font-size: 1.3rem; font-weight: 700; }
+.pf-hinweis { background: var(--farbe-akzent); color: #fff; font-weight: 700; border-radius: 6px; padding: .4rem .7rem; display: inline-block; }
+.pf-fotos { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: .75rem; margin: 2rem 0; }
+.pf-fotos img { aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; width: 100%; }
+.pf-abschnitt { margin-top: 3rem; scroll-margin-top: 6rem; }
+.pf-karten { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 21rem), 1fr)); gap: 1rem; margin-top: 1rem; align-items: start; }
+.pf-karte { background: #fff; border-radius: 10px; padding: 1rem 1.25rem; }
+.pf-karte h3 { font-family: var(--schrift-titel); color: var(--farbe-akzent); margin: 0 0 .5rem; font-size: 1.25rem; }
+.pf-karte h4 { margin: 1rem 0 .25rem; font-size: 1rem; color: var(--farbe-haupt); }
+.pf-karte h3 + .preisliste + h3 { margin-top: 1rem; }
+.preisliste { list-style: none; margin: 0; padding: 0; }
+.preisliste li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .35rem 0; border-bottom: 1px dotted #C9C5BB; }
+.preisliste li:last-child { border-bottom: 0; }
+.preisliste li > span:last-child { white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 600; }
+.preisliste small { display: block; color: var(--farbe-text-leise); font-size: .9rem; line-height: 1.35; }
+.pf-im-laden { font-weight: 400 !important; font-style: italic; color: var(--farbe-text-leise); }
+.pf-liste-text { color: var(--farbe-text-leise); margin: .25rem 0; }
+.pf-vermerk { margin-top: 1rem; color: var(--farbe-text-leise); font-size: .95rem; }
+.pf-shop-liste { margin: .5rem 0 0; padding-left: 1.25rem; }
+.pf-shop-liste li { margin: .25rem 0; }
+.pf-shop-bild { border-radius: 8px; margin-top: 1rem; max-height: 28rem; width: 100%; object-fit: cover; }
+.pf-fuss { background: var(--farbe-haupt-hover); color: #F5F4F0; text-align: center; padding: 1.5rem 1rem; }
+.pf-fuss a { color: #fff; white-space: nowrap; }
