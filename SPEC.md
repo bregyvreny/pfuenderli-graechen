@@ -75,7 +75,7 @@ Domain: `https://pfuenderli-graechen.ch`
   - Preisdetails: Konfitüre 200 g 5.00 / 300 g 7.00; Sirup 0,5 l 8.00; Tartelettes klein 3.50 / gross 8.50; Sandwiches 5.00–6.50; Roggenbrot natur 250 g 3.00 / 500 g 5.00 / 1000 g 8.50; Roggenbrot Früchte/Nüsse 500 g 6.00 / 1000 g 9.50.
   - Entfernt: Greecherli warm mit Rahm, Ciabatta-Sandwichbrötli, Schoko-Donut, Schoko-Muffin (Chocofan).
   - Pizza, Sandwiches und Hot-Dogs auch Take-away.
-  - Holzofenbrote gemäss Fredy's Gesamtkatalog 2027 (7.11.2026): «Holzofen Wild & Ruch», «Holzofen Pane alle olive oder Pane al pomodoro»; Nuss-Kartoffelbrot ist kein Holzofenbrot und steht bei «Brote».
+  - Holzofenbrote gemäss Fredy's Gesamtkatalog 2027 (7.11.2026): «Holzofen Wild & Ruch», «Holzofen Pane alle olive oder Pane al pomodoro»; Nuss-Kartoffelbrot ist kein Holzofenbrot und steht bei «Brote»; «Holzofen Burebrot hell» und «Holzofen UrDinkel-Chnorz» ebenfalls von Fredy's (bestätigt).
   - Swiss-Knife-Shop: nur Victorinox – Taschenmesser, Taschenwerkzeuge, Küchenmesser (Profi und privat), Küchenhilfen (Schäler, Schneidebretter, Rüstmesser, Scheren usw.). Keine Taschen/Rucksäcke, keine Parfüms (nicht mehr im Sortiment) – entsprechende Fotos nicht verwenden.
   - Nicht verwenden: Stockfoto `Weissbrot__174214.jpg` (Wasserzeichen).
 - Abnahmekriterien:
