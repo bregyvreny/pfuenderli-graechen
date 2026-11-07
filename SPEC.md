@@ -118,6 +118,15 @@ Domain: `https://pfuenderli-graechen.ch`
   - [ ] Datenschutzerklärung stimmt mit dem tatsächlichen Verhalten überein (Cookies, Dienste) – nach dem Online-Test prüfen. Stand 6.11.2026: Auf pfuenderli-graechen.ch selbst keine Cookies; Dienste: www.easy-booking.at, gsrv001.easy-booking.at. Cookies innerhalb des easybooking-iframes nicht prüfbar.
 - Suchleiste oben (Wohnung, Anreise, Abreise, Gäste) gab ihre Auswahl nicht an easybooking weiter – auf Wunsch von Vreny entfernt (DE/EN, 6.11.2026). Gebucht wird nur noch in der easybooking-Maske.
 
+### A-12 Startseite: drei Schwerpunkte gleich gewichtet
+- Priorität: Muss · Status: umgesetzt (7.11.2026), Freigabe durch Vreny ausstehend
+- Entscheide Vreny (7.11.2026): Die drei Schwerpunkte sind z'Pfünderli, Swiss-Knife-Shop und Apartments, in dieser Reihenfolge. Ersetzt das zweigeteilte Titelbild aus A-10.
+- Abnahmekriterien:
+  - [x] Titelbild mit drei gleich grossen Feldern (Desktop nebeneinander, Handy untereinander), je mit Foto, Kurztext und Knopf – DE und EN
+  - [x] Hauptmenü beginnt mit z'Pfünderli · Swiss-Knife-Shop · Wohnungen
+  - [x] Name oben links und Google-Titel nennen alle drei
+  - Hinweis: Schliessungshinweis «bis 12. Dezember 2026» steht im z'Pfünderli- und im Shop-Feld – nach dem 12.12. entfernen.
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
