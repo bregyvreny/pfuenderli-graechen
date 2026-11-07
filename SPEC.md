@@ -9,7 +9,7 @@ Website für die drei Ferienwohnungen von Vreny & Michel Bregy-Brigger in Gräch
 | Seite | Datei | Zweck |
 |---|---|---|
 | Startseite DE | `docs/index.html` | Übersicht, Wohnungen, Lage, Preise, Kontakt |
-| Chalet EFEU | `docs/efeu.html` | Detailseite |
+| Apartment EFEU | `docs/efeu.html` | Detailseite |
 | Apartment EGGERI | `docs/eggeri.html` | Detailseite |
 | Kornstadel ARIDA PRATA | `docs/arida.html` | Detailseite |
 | z'Pfünderli | `docs/pfuenderli.html` | Bistro, Brotladen, Swiss-Knife-Shop (A-08) |
