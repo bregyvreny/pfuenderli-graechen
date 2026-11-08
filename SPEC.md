@@ -115,9 +115,9 @@ Domain: `https://pfuenderli-graechen.ch`
 - Abnahmekriterien:
   - [x] Auf https://pfuenderli-graechen.ch lädt die Buchungsmaske (DE) ohne Fehlermeldung (als iframe von gsrv001.easy-booking.at); Suche liefert Verfügbarkeit bzw. Ausweichdaten
   - [x] Englische Startseite zeigt die Buchungsmaske auf Englisch (localeId 1 bestätigt)
-  - [ ] Farben wie geliefert (oranger Knopf, schwarze Schrift) und gut lesbar
-  - [ ] Nach «Weiter» im ersten Schritt ist der Anfang der Buchungsmaske sichtbar (Desktop und Handy), DE und EN
-  - [ ] Beim Öffnen der Startseite springt die Seite nicht von selbst zur Buchungsmaske
+  - [x] Farben wie geliefert (oranger Knopf, schwarze Schrift) und gut lesbar (online geprüft 8.11.2026, DE/EN)
+  - [ ] Nach «Weiter» im ersten Schritt ist der Anfang der Buchungsmaske sichtbar (Desktop und Handy), DE und EN – online geprüft 8.11.2026 im schmalen Browserfenster (DE/EN); auf einem echten Handy noch durch Vreny zu bestätigen
+  - [x] Beim Öffnen der Startseite springt die Seite nicht von selbst zur Buchungsmaske (online geprüft 8.11.2026, DE/EN)
   - [ ] Datenschutzerklärung stimmt mit dem tatsächlichen Verhalten überein (Cookies, Dienste) – nach dem Online-Test prüfen. Stand 6.11.2026: Auf pfuenderli-graechen.ch selbst keine Cookies; Dienste: www.easy-booking.at, gsrv001.easy-booking.at. Cookies innerhalb des easybooking-iframes nicht prüfbar.
 - Suchleiste oben (Wohnung, Anreise, Abreise, Gäste) gab ihre Auswahl nicht an easybooking weiter – auf Wunsch von Vreny entfernt (DE/EN, 6.11.2026). Gebucht wird nur noch in der easybooking-Maske.
 
