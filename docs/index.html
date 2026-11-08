@@ -296,7 +296,7 @@ input,select,textarea{font:inherit}
 </div>
 <p style="margin: 0; color: #55605A; max-width: 420px">Echtzeit-Verfügbarkeit und Preise – sicher gebucht über unser Buchungssystem.</p>
 </div>
-<!-- SPEC A-11 easybooking-Buchungsmaske (Einbaucode von easybooking, Farben an die Website angepasst) -->
+<!-- SPEC A-11 easybooking-Buchungsmaske (Einbaucode von easybooking, Originalfarben) -->
 <div id="ebFrontEndFrame" style="min-height: 520px"></div>
 <noscript><p style="color: #55605A">Für die Online-Buchung bitte JavaScript aktivieren – oder per E-Mail anfragen: brv@bluewin.ch</p></noscript>
 <script src="https://www.easy-booking.at/bookingengine2/js/jquery.easybooking.frontend.js"></script>
@@ -309,14 +309,32 @@ function ebFrontendLoadedCheck() {
       localeId: 2,
       frameId: "ebFrontEndPlugin",
       encapsulated: true,
-      backgroundColor: "#2E5A44",
-      fontColor: "#FFFFFF"
+      backgroundColor: "#fe9200",
+      fontColor: "#000000"
     });
   } else {
     setTimeout(ebFrontendLoadedCheck, 200);
   }
 }
 ebFrontendLoadedCheck();
+</script>
+<script>
+// SPEC A-11: Nach jedem Schrittwechsel in der Buchungsmaske an deren Anfang scrollen
+(function () {
+  var ebSchritt = null;
+  window.addEventListener("message", function (e) {
+    if (!/^https:\/\/([a-z0-9-]+\.)*easy-booking\.at$/.test(e.origin)) return;
+    var d;
+    try { d = typeof e.data === "string" ? JSON.parse(e.data) : e.data; } catch (x) { return; }
+    if (!d || d.sender !== "easybooking" || d.type !== "update" || d.step === undefined) return;
+    var schritt = String(d.step);
+    if (ebSchritt !== null && schritt !== ebSchritt) {
+      var ziel = document.getElementById("ebFrontEndFrame");
+      window.scrollTo({ top: ziel.getBoundingClientRect().top + window.pageYOffset - 16, behavior: "smooth" });
+    }
+    ebSchritt = schritt;
+  });
+})();
 </script>
 
 </section>

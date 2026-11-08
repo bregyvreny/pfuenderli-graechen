@@ -107,14 +107,17 @@ Domain: `https://pfuenderli-graechen.ch`
 
 ### A-11 Online-Buchung mit easybooking
 - Priorität: Muss · Status: online geprüft (6.11.2026); Testbuchung durch Vreny erfolgreich
-- Einbaucode von Vreny (easybooking, Kunden-ID 7233, Seriennummer 7639-1754-6482) im Abschnitt «Online buchen» der Startseite DE (`localeId 2`) und EN (`localeId 1`, noch nicht bestätigt). Farben an die Website angepasst: Hintergrund `#2E5A44`, Schrift `#FFFFFF` (geliefert: `#fe9200` / `#000000`).
+- Einbaucode von Vreny (easybooking, Kunden-ID 7233, Seriennummer 7639-1754-6482) im Abschnitt «Online buchen» der Startseite DE (`localeId 2`) und EN (`localeId 1`, noch nicht bestätigt). Farben wie geliefert: Hintergrund `#fe9200`, Schrift `#000000` (vom 6.11. bis 8.11.2026 grün `#2E5A44` / `#FFFFFF`; Entscheid Vreny 8.11.2026: Originalfarben, damit man merkt, dass man ins Buchungssystem wechselt).
+- Nach jedem Schrittwechsel in der Maske scrollt die Seite an den Anfang der Buchungsmaske (eigenes Skript, wertet die Meldungen `type: "update"`/`step` des easybooking-iframes aus; beim Laden der Seite kein Scrollen). Grund: Nach «Weiter» im ersten Schritt landete man sonst unterhalb der Maske (Meldung Vreny 8.11.2026). Die eingebaute Scroll-Funktion von easybooking ist im Einbaucode inaktiv.
 - Entscheide Vreny (6.11.2026): Studio ROSELINE darf in der Buchungsmaske erscheinen (der Einbaucode hat keinen Filter); grüne Farben; DE und EN.
 - Lokal nicht testbar: easybooking lässt nur freigegebene Webadressen zu (CORS-Fehler auf localhost).
 - Datenschutzerklärung DE/EN um Abschnitt «Online-Buchung über easybooking» ergänzt.
 - Abnahmekriterien:
   - [x] Auf https://pfuenderli-graechen.ch lädt die Buchungsmaske (DE) ohne Fehlermeldung (als iframe von gsrv001.easy-booking.at); Suche liefert Verfügbarkeit bzw. Ausweichdaten
   - [x] Englische Startseite zeigt die Buchungsmaske auf Englisch (localeId 1 bestätigt)
-  - [x] Farben gut lesbar (grüner Knopf, weisse Schrift)
+  - [ ] Farben wie geliefert (oranger Knopf, schwarze Schrift) und gut lesbar
+  - [ ] Nach «Weiter» im ersten Schritt ist der Anfang der Buchungsmaske sichtbar (Desktop und Handy), DE und EN
+  - [ ] Beim Öffnen der Startseite springt die Seite nicht von selbst zur Buchungsmaske
   - [ ] Datenschutzerklärung stimmt mit dem tatsächlichen Verhalten überein (Cookies, Dienste) – nach dem Online-Test prüfen. Stand 6.11.2026: Auf pfuenderli-graechen.ch selbst keine Cookies; Dienste: www.easy-booking.at, gsrv001.easy-booking.at. Cookies innerhalb des easybooking-iframes nicht prüfbar.
 - Suchleiste oben (Wohnung, Anreise, Abreise, Gäste) gab ihre Auswahl nicht an easybooking weiter – auf Wunsch von Vreny entfernt (DE/EN, 6.11.2026). Gebucht wird nur noch in der easybooking-Maske.
 
@@ -155,3 +158,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.6 | 6.11.2026 | A-09: Impressum und Datenschutz auch auf Englisch |
 | 0.7 | 6.11.2026 | A-08: z'Pfünderli-Seite auf Englisch |
 | 0.8 | 6.11.2026 | A-11 easybooking-Buchungsmaske eingebaut (Test online ausstehend), F-02 erledigt |
+| 0.9 | 8.11.2026 | A-11: Originalfarben easybooking (orange), Scrollen an den Anfang der Buchungsmaske nach jedem Schritt |
