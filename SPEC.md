@@ -130,6 +130,20 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Name oben links und Google-Titel nennen alle drei
   - Hinweis: Schliessungshinweis «bis 12. Dezember 2026» steht im z'Pfünderli- und im Shop-Feld – nach dem 12.12. entfernen.
 
+### A-13 Startseite: Titel der drei Schwerpunkte anklickbar
+- Priorität: Soll · Status: freigegeben durch Vreny (9.11.2026, Auswahl im Chat)
+- Die drei grossen Titel im Titelbild führen zum gleichen Ziel wie der Knopf darunter:
+  - z'Pfünderli → `/pfuenderli.html` (EN `/en/pfuenderli.html`)
+  - Swiss-Knife-Shop → `/pfuenderli.html#shop` (EN `/en/pfuenderli.html#shop`)
+  - Apartments → Abschnitt `#wohnungen` auf der Startseite (es gibt keine eigene Unterseite)
+- Aussehen: Titel unverändert; beim Darüberfahren mit der Maus bzw. bei Tastaturfokus unterstrichen.
+- Andere Titel der Startseite bleiben ohne Link.
+- Abnahmekriterien:
+  - [x] Klick auf jeden der drei Titel führt zum genannten Ziel – DE und EN (lokal geprüft 9.11.2026; Ziele `#shop` und `#wohnungen` vorhanden)
+  - [x] Titel sehen ohne Maus gleich aus wie vorher (Farbe, Grösse, nicht unterstrichen)
+  - [x] Beim Darüberfahren sind die Titel unterstrichen (Tastaturfokus per CSS `:focus-visible`, nicht separat getestet)
+  - [x] Keine neuen Fehler in der Browser-Konsole (lokal nur die bekannten easybooking-CORS-Meldungen, die nur auf localhost auftreten)
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -159,3 +173,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.7 | 6.11.2026 | A-08: z'Pfünderli-Seite auf Englisch |
 | 0.8 | 6.11.2026 | A-11 easybooking-Buchungsmaske eingebaut (Test online ausstehend), F-02 erledigt |
 | 0.9 | 8.11.2026 | A-11: Originalfarben easybooking (orange), Scrollen an den Anfang der Buchungsmaske nach jedem Schritt |
+| 0.10 | 9.11.2026 | A-13: Titel der drei Schwerpunkte im Titelbild anklickbar |
