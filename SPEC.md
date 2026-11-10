@@ -144,6 +144,19 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Beim Darüberfahren sind die Titel unterstrichen (Tastaturfokus per CSS `:focus-visible`, nicht separat getestet)
   - [x] Keine neuen Fehler in der Browser-Konsole (lokal nur die bekannten easybooking-CORS-Meldungen, die nur auf localhost auftreten)
 
+### A-14 z'Pfünderli-Seite: vegane Produkte mit «V» kennzeichnen
+- Priorität: Soll · Status: freigegeben durch Vreny (10.11.2026, «mit V kennzeichnen»)
+- Quelle: «Fredy's vegane Produkteliste» (PDF im Ordner Bä, 10.11.2026), abgeglichen über die Artikelnummern der Bestellliste AA-19-10-2026; eigene Produkte wie auf der Preisliste (Hüsbrot, Roggenbrote, Konfitüre, Sirup).
+- Gilt nur für den Abschnitt «Brotladen & Take-away» (DE und EN), nicht für die Bistro-Karte.
+- Mit V: Veganer Gipfel, Kaisersemmel, Chnörzli hell, Fonduebrot, Mehrkornbrot, Toscanerbrot, Nuss-Kartoffelbrot, Ur-Dinkel-Kernenbrot, Gastrobrot ruch, Holzofen Pain traditionnel hell und dunkel, Holzofen Wild & Ruch, Holzofen UrDinkel-Chnorz, Holzofen Pane alle olive / al pomodoro, Hüsbrot zweifarbig, Roggenbrot natur, Roggenbrot Früchte/Nüsse, Konfitüre, Sirup 0,5 l.
+- Offen (vorerst ohne V, keine Artikelnummer bekannt): Laugensemmel, Maggiabrötli, Mütschli ruch, Ur-Dinkelbrötli.
+- Aussehen: kleines grünes «V» hinter dem Produktnamen (wie auf der Preisliste), Erklärung «V = vegan» unter dem Brotladen.
+- Abnahmekriterien:
+  - [x] Alle oben genannten Produkte tragen ein V – DE und EN (lokal geprüft 10.11.2026: je 19 V)
+  - [x] Kein anderes Produkt trägt ein V (kein V ausserhalb des Brotladens)
+  - [x] Erklärung «V = vegan» sichtbar unter dem Brotladen – DE und EN
+  - [x] Darstellung auf Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -174,3 +187,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.8 | 6.11.2026 | A-11 easybooking-Buchungsmaske eingebaut (Test online ausstehend), F-02 erledigt |
 | 0.9 | 8.11.2026 | A-11: Originalfarben easybooking (orange), Scrollen an den Anfang der Buchungsmaske nach jedem Schritt |
 | 0.10 | 9.11.2026 | A-13: Titel der drei Schwerpunkte im Titelbild anklickbar |
+| 0.11 | 10.11.2026 | A-14: vegane Produkte im Brotladen mit «V» gekennzeichnet (Quelle: Fredy's vegane Produkteliste) |
