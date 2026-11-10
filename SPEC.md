@@ -149,11 +149,11 @@ Domain: `https://pfuenderli-graechen.ch`
 - Quelle: «Fredy's vegane Produkteliste» (PDF im Ordner Bä, 10.11.2026), abgeglichen über die Artikelnummern der Bestellliste AA-19-10-2026; eigene Produkte wie auf der Preisliste (Hüsbrot, Roggenbrote, Konfitüre, Sirup).
 - Gilt nur für den Abschnitt «Brotladen & Take-away» (DE und EN), nicht für die Bistro-Karte.
 - Mit V: Veganer Gipfel, Kaisersemmel, Mütschli ruch (= Fredy's Holzofenperle 4013, Angabe Vreny 10.11.2026), Chnörzli hell, Fonduebrot, Mehrkornbrot, Toscanerbrot, Nuss-Kartoffelbrot, Ur-Dinkel-Kernenbrot, Gastrobrot ruch, Holzofen Pain traditionnel hell und dunkel, Holzofen Wild & Ruch, Holzofen UrDinkel-Chnorz, Holzofen Pane alle olive / al pomodoro, Hüsbrot zweifarbig, Roggenbrot natur, Roggenbrot Früchte/Nüsse, Konfitüre, Sirup 0,5 l.
+- Ebenfalls mit V (Prodega, Hersteller Römer's Hausbäckerei; Zutaten ohne tierische Bestandteile laut shop.romers.ch, Allergenhinweis «Spuren von Milch», kein Vegan-Label; freigegeben durch Vreny 10.11.2026): Maggiabrötli (Römer's 10482), Ur-Dinkelbrötli (= Römer's Dinkelbrötli 10415).
 - Ohne V: Laugensemmel (laut Vreny nicht vegan).
-- Offen (vorerst ohne V, keine Artikelnummer bekannt): Maggiabrötli, Ur-Dinkelbrötli.
 - Aussehen: kleines grünes «V» hinter dem Produktnamen (wie auf der Preisliste), Erklärung «V = vegan» unter dem Brotladen.
 - Abnahmekriterien:
-  - [x] Alle oben genannten Produkte tragen ein V – DE und EN (lokal geprüft 10.11.2026: je 20 V inkl. Mütschli ruch)
+  - [x] Alle oben genannten Produkte tragen ein V – DE und EN (lokal geprüft 10.11.2026: je 22 V inkl. Mütschli ruch, Maggiabrötli, Ur-Dinkelbrötli)
   - [x] Kein anderes Produkt trägt ein V (kein V ausserhalb des Brotladens)
   - [x] Erklärung «V = vegan» sichtbar unter dem Brotladen – DE und EN
   - [x] Darstellung auf Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
