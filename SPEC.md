@@ -174,7 +174,7 @@ Domain: `https://pfuenderli-graechen.ch`
   - Hinweis: Ob und wann Google das Bild zeigt, entscheidet Google; wirksam erst nach dem nächsten Besuch des Google-Crawlers.
 
 ### A-16 z'Pfünderli-Seite: Sparten aufklappbar
-- Priorität: Soll · Status: freigegeben durch Vreny (17.11.2026, Auswahl im Chat)
+- Priorität: Soll · Status: freigegeben durch Vreny (17.11.2026, Auswahl im Chat); Ergebnis online von Vreny bestätigt (17.11.2026, «übersichtlicher, passt so»)
 - Wunsch Vreny: Die Darstellung der Produkte stört; die Sparten sollen einzeln aufklappen, wenn man sie anklickt.
 - Gilt für die Bistro-Karte (7 Sparten) und den Brotladen (9 Sparten: «Gipfeli» und «Zopf» werden getrennt), DE und EN. Swiss-Knife-Shop unverändert.
 - Beim Laden der Seite sind alle Sparten zugeklappt; sichtbar ist nur der Titel mit einem Pfeil.
@@ -189,7 +189,7 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Darstellung auf Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
 
 ### A-17 z'Pfünderli-Seite: Sparten klappen auf wie ein Blatt
-- Priorität: Kann · Status: freigegeben durch Vreny (17.11.2026, Variante «A»)
+- Priorität: Kann · Status: freigegeben durch Vreny (17.11.2026, Variante «A»); Ergebnis online von Vreny bestätigt (17.11.2026)
 - Ergänzt A-16: Beim Öffnen einer Sparte schwenkt der Inhalt von links nach rechts auf, wie eine Seite, die umgeblättert wird (Dauer ca. 0,5 Sekunden).
 - Nur beim Öffnen; das Schliessen geschieht ohne Animation.
 - Umsetzung nur mit CSS (ohne JavaScript). Wer im Gerät «Bewegung reduzieren» eingestellt hat, sieht keine Animation.
