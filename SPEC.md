@@ -158,6 +158,21 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Erklärung «V = vegan» sichtbar unter dem Brotladen – DE und EN
   - [x] Darstellung auf Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
 
+### A-15 Vorschaubild und Name für Google
+- Priorität: Soll · Status: freigegeben durch Vreny (17.11.2026, «Spec aufnehmen und umsetzen»)
+- Hintergrund: Die Website erscheint bei Google, aber ohne Vorschaubild. Google wählt das Bild selbst; die Website kann es nur vorschlagen.
+- Vorschaubild der Startseite (DE und EN) neu: Brotkorb aus dem Brotladen (`/assets/img/pfuenderli/brotkorb.jpg`) statt Hausfoto (Wunsch Vreny: «ein Bild von der Bäckerei»; Auswahl des Fotos durch Claude).
+- Auf allen Seiten (DE und EN) die Erlaubnis für grosse Vorschaubilder: `<meta name="robots" content="max-image-preview:large">`.
+- Name der Website (`og:site_name`) auf allen Seiten «z'Pfünderli Grächen» statt «apartments bregy».
+- Nicht geändert: Unterkunftsdaten für Google (A-04, Name «apartments bregy», Hausfoto) – sie beschreiben die Wohnungen.
+- Fotos im Google-Unternehmensprofil lädt Vreny selbst hoch (nicht Teil der Website).
+- Abnahmekriterien:
+  - [x] Startseite DE und EN: `og:image` zeigt auf `brotkorb.jpg`, die Datei ist vorhanden (lokal geprüft 17.11.2026, Bild lädt)
+  - [x] Alle Seiten: genau eine robots-Zeile mit `max-image-preview:large`, kein `noindex` (alle 14 Seiten geprüft)
+  - [x] Keine Seite enthält mehr `og:site_name` «apartments bregy»
+  - [x] Seiten laden ohne neue Konsolenfehler (Startseite lokal geprüft)
+  - Hinweis: Ob und wann Google das Bild zeigt, entscheidet Google; wirksam erst nach dem nächsten Besuch des Google-Crawlers.
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -189,3 +204,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.9 | 8.11.2026 | A-11: Originalfarben easybooking (orange), Scrollen an den Anfang der Buchungsmaske nach jedem Schritt |
 | 0.10 | 9.11.2026 | A-13: Titel der drei Schwerpunkte im Titelbild anklickbar |
 | 0.11 | 10.11.2026 | A-14: vegane Produkte im Brotladen mit «V» gekennzeichnet (Quelle: Fredy's vegane Produkteliste) |
+| 0.12 | 17.11.2026 | A-15: Vorschaubild Brotkorb für Google, grosse Vorschaubilder erlaubt, Website-Name «z'Pfünderli Grächen» |
