@@ -200,6 +200,30 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Bei «Bewegung reduzieren» keine Animation (nur im CSS-Code geprüft: Animation steht in `@media (prefers-reduced-motion: no-preference)`, nicht im Browser getestet)
   - [x] Handy (375 px) ohne seitliches Scrollen, auch während der Animation; keine Konsolenfehler
 
+### A-18 Neuheiten, saisonale Angebote und Aktionen
+- Priorität: Soll · Status: freigegeben durch Vreny (17.11.2026, «Ja, umsetzen»); umgesetzt 17.11.2026, noch ohne echten Eintrag
+- Wunsch Vreny (17.11.2026): Produkte wie die Pralinen als Neuheit zeigen, auch saisonale Angebote und Aktionen; auf der z'Pfünderli-Seite und auf der Startseite.
+- **Feld «Neu & Aktuell»** (EN «New & seasonal») auf der z'Pfünderli-Seite, direkt unter Öffnungszeiten/Vorbestellen/Adresse und vor der Bistro-Karte, Sprungmarke `#aktuell`.
+  - Ein oder mehrere Einträge, je mit: Titel, kurzer Text (1–3 Sätze), optional Foto, optional Preis, optional Hinweis «nur auf Vorbestellung» o. ä.
+  - Jeder Eintrag kann ein Startdatum («ab») und ein Enddatum («bis») haben. Vor dem Start und nach dem Ende wird er automatisch ausgeblendet (wenig JavaScript, Datum des Geräts).
+  - Ist kein Eintrag gültig, ist das ganze Feld unsichtbar.
+- **Startseite** (DE/EN): Im z'Pfünderli-Feld des Titelbilds eine kurze Zeile «Neu: …» mit Link auf `/pfuenderli.html#aktuell`. Gleiche Datumsregeln; ohne gültigen Eintrag keine Zeile.
+- **Zeichen «Neu»** in der Produktliste (Bistro-Karte/Brotladen): kleines Etikett hinter dem Produktnamen, ähnlich dem «V», ebenfalls mit Enddatum.
+- Saisonale Produkte können bei Bedarf eine eigene Sparte erhalten (z. B. «Saison: Herbst»), aufklappbar wie A-16.
+- Inhalte: Texte, Preise, Daten und Fotos liefert Vreny; nichts wird erfunden. Englische Übersetzung durch Claude.
+- Ablauf für Änderungen: Vreny schickt Text/Foto im Chat → Claude baut ein und committet → Vreny pusht.
+- Abgelaufene Einträge entfernt Claude bei der nächsten Änderung aus dem Code.
+- Technik: `/js/aktuell.js`; Vorlagen für Eintrag, Startseiten-Zeile und Zeichen «Neu» stehen als Kommentar in `pfuenderli.html`, `index.html` und `css/pfuenderli.css`. Ohne JavaScript bleiben alle Einträge ausgeblendet (nie veraltete Anzeige).
+- Nicht Teil davon: Bearbeitungsprogramm (CMS) für Vreny; Beiträge im Google-Unternehmensprofil (macht Vreny selbst, sobald das Profil eingerichtet ist).
+- Vorbehalt Pralinen: Ankündigung erst, wenn Etikette (Gewicht, Haltbarkeit, Zutaten) und Probeguss erledigt sind.
+- Abnahmekriterien (Prüfung mit einem Test-Eintrag, der danach wieder entfernt wird):
+  - [x] Gültiger Eintrag erscheint auf der z'Pfünderli-Seite und als Zeile auf der Startseite – DE und EN (lokal 17.11.2026; Startseiten-Zeile nur DE mit Test-Eintrag geprüft, EN gleicher Aufbau; Link springt zum Feld, Titel nicht unter dem Menüband)
+  - [x] Eintrag mit Startdatum in der Zukunft bzw. Enddatum in der Vergangenheit ist nicht sichtbar, auch nicht auf der Startseite
+  - [x] Ohne gültigen Eintrag ist weder das Feld noch die Startseiten-Zeile sichtbar (kein leerer Rahmen)
+  - [x] Zeichen «Neu» erscheint hinter einem Produkt und verschwindet nach dem Enddatum
+  - [x] Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
+  - Test-Einträge nach der Prüfung wieder entfernt.
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -234,3 +258,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.12 | 17.11.2026 | A-15: Vorschaubild Brotkorb für Google, grosse Vorschaubilder erlaubt, Website-Name «z'Pfünderli Grächen» |
 | 0.13 | 17.11.2026 | A-16: Sparten der Bistro-Karte und des Brotladens aufklappbar |
 | 0.14 | 17.11.2026 | A-17: Sparten klappen beim Öffnen auf wie ein Blatt (Animation) |
+| 0.15 | 17.11.2026 | A-18: Neuheiten, saisonale Angebote und Aktionen mit Ablaufdatum |

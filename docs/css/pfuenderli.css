@@ -98,3 +98,17 @@ img { max-width: 100%; height: auto; display: block; }
 .seitenfuss-innen { max-width: 1200px; margin: 0 auto; padding: 32px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; }
 .seitenfuss a { color: #F5F4F0; padding: 4px 0; }
 .seitenfuss nav { display: flex; gap: 20px; }
+
+/* SPEC A-18: Neu & Aktuell. Zeichen «Neu» im Produkt: <span class="pf-neu" data-eintrag data-bis="JJJJ-MM-TT" hidden>Neu</span> (EN: New) */
+[data-eintrag][hidden], [data-aktuell][hidden] { display: none !important; }
+.pf-aktuell { margin: 2rem 0 0; scroll-margin-top: 6rem; }
+.pf-aktuell-liste { display: grid; gap: 1rem; margin-top: 1rem; }
+.pf-aktuell-eintrag { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); background: #fff; border-radius: 10px; overflow: hidden; border-left: 6px solid var(--farbe-akzent); }
+.pf-aktuell-eintrag:not(:has(> img)) { grid-template-columns: 1fr; }
+.pf-aktuell-eintrag > img { width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.pf-aktuell-eintrag > div { padding: 1rem 1.25rem; }
+.pf-aktuell-eintrag h3 { font-family: var(--schrift-titel); color: var(--farbe-akzent); margin: 0 0 .5rem; font-size: 1.3rem; }
+.pf-aktuell-eintrag p { margin: .35rem 0; }
+.pf-aktuell-preis { font-weight: 700; font-variant-numeric: tabular-nums; }
+@media (max-width: 40rem) { .pf-aktuell-eintrag { grid-template-columns: 1fr; } .pf-aktuell-eintrag > img { height: auto; } }
+.pf-neu { display: inline-block; margin-left: .15em; padding: 0 .4em; border-radius: 3px; background: var(--farbe-akzent); color: #fff; font-size: .72rem; font-weight: 700; line-height: 1.5; vertical-align: .12em; text-transform: uppercase; letter-spacing: .03em; }

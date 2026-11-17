@@ -62,6 +62,9 @@ input,select,textarea{font:inherit}
 .hero-knopf{background:#FFFFFF;color:#1A1F1C;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:6px}
 .hero-knopf:hover,.hero-knopf:focus-visible{background:#F5F4F0;color:#1A1F1C}
 @media (max-width:1000px){.hero-split{grid-template-columns:1fr}.hero-teil{min-height:400px}.hero-text{padding:110px 20px 56px}}
+.hero-neu{background:#2E5A44;color:#FFFFFF;text-decoration:none}
+.hero-neu:hover,.hero-neu:focus-visible{background:#24493A;color:#FFFFFF;text-decoration:underline}
+[data-eintrag][hidden],[data-aktuell][hidden]{display:none!important}
 </style>
 </head>
 <body>
@@ -93,6 +96,7 @@ input,select,textarea{font:inherit}
 <div class="hero-teil hero-pfuenderli" role="group" aria-label="z'Pfünderli">
 <div class="hero-text">
 <span class="hero-marke hero-marke-warnung">Closed until 12 December 2026</span>
+<!-- SPEC A-18: Zeile «New: …» – Vorlage: <a class="hero-marke hero-neu" href="/en/pfuenderli.html#aktuell" data-eintrag data-ab="JJJJ-MM-TT" data-bis="JJJJ-MM-TT" hidden>New: …</a> -->
 <h1 class="hero-titel"><a href="/en/pfuenderli.html">z'Pfünderli</a></h1>
 <p class="hero-lead">Bistro &amp; bakery<br>Dorfstrasse 152 · daily 06:59 – 19:01</p>
 <a class="hero-knopf" href="/en/pfuenderli.html">Menu, bread &amp; prices</a>
@@ -396,5 +400,6 @@ ebFrontendLoadedCheck();
 
 </div>
 <a href="#" class="nach-oben" aria-label="Back to top" title="Back to top" style="position: fixed; right: 16px; bottom: 16px; z-index: 50; width: 48px; height: 48px; border-radius: 50%; background: #2E5A44; color: #FFFFFF; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 24px; font-weight: 700; box-shadow: 0 4px 12px rgba(0,0,0,.25)">↑</a>
+<script src="/js/aktuell.js" defer></script>
 </body>
 </html>

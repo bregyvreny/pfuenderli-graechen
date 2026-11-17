@@ -78,6 +78,18 @@
       </div>
     </section>
 
+    <!-- SPEC A-18: Neu & Aktuell. Feld bleibt unsichtbar, solange kein gültiger Eintrag da ist.
+         Eintrag: <article class="pf-aktuell-eintrag" data-eintrag data-ab="JJJJ-MM-TT" data-bis="JJJJ-MM-TT" hidden>
+                    <img src="/assets/img/aktuell/….jpg" alt="…" width="…" height="…" loading="lazy">   (optional)
+                    <div><h3>Titel</h3><p>Text</p><p class="pf-aktuell-preis">CHF …</p></div>        (Preis optional)
+                  </article>
+         data-ab / data-bis sind optional (bis = inklusive). Steuerung: /js/aktuell.js -->
+    <section class="pf-aktuell" id="aktuell" aria-labelledby="aktuell-titel" data-aktuell hidden>
+      <h2 id="aktuell-titel">Neu &amp; Aktuell</h2>
+      <div class="pf-aktuell-liste">
+      </div>
+    </section>
+
     <div class="pf-fotos">
       <img src="/assets/img/pfuenderli/gipfeli.jpg" alt="Körbe mit frischen Gipfeli" width="1400" height="934" loading="lazy">
       <img src="/assets/img/pfuenderli/brotkorb.jpg" alt="Korb mit verschiedenen Broten und Brötchen" width="1400" height="934" loading="lazy">
@@ -393,5 +405,6 @@
     <p><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a></p>
   </footer>
 <a href="#" class="nach-oben" aria-label="Nach oben" title="Nach oben" style="position: fixed; right: 16px; bottom: 16px; z-index: 50; width: 48px; height: 48px; border-radius: 50%; background: #2E5A44; color: #FFFFFF; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 24px; font-weight: 700; box-shadow: 0 4px 12px rgba(0,0,0,.25)">↑</a>
+<script src="/js/aktuell.js" defer></script>
 </body>
 </html>
