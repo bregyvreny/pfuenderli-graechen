@@ -173,6 +173,21 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Seiten laden ohne neue Konsolenfehler (Startseite lokal geprüft)
   - Hinweis: Ob und wann Google das Bild zeigt, entscheidet Google; wirksam erst nach dem nächsten Besuch des Google-Crawlers.
 
+### A-16 z'Pfünderli-Seite: Sparten aufklappbar
+- Priorität: Soll · Status: freigegeben durch Vreny (17.11.2026, Auswahl im Chat)
+- Wunsch Vreny: Die Darstellung der Produkte stört; die Sparten sollen einzeln aufklappen, wenn man sie anklickt.
+- Gilt für die Bistro-Karte (7 Sparten) und den Brotladen (9 Sparten: «Gipfeli» und «Zopf» werden getrennt), DE und EN. Swiss-Knife-Shop unverändert.
+- Beim Laden der Seite sind alle Sparten zugeklappt; sichtbar ist nur der Titel mit einem Pfeil.
+- Klick auf den Titel öffnet bzw. schliesst die Sparte; mehrere Sparten können gleichzeitig offen sein.
+- Umsetzung ohne JavaScript (HTML-Element `<details>`/`<summary>`), bedienbar mit Tastatur.
+- Anordnung: Sparten untereinander in einer Spalte (max. ca. 46rem breit) statt im Raster – im Raster entstanden beim Aufklappen grosse Lücken (Entscheid Claude beim Umsetzen, 17.11.2026).
+- Inhalte (Produkte, Preise, V-Kennzeichnung) bleiben unverändert; Legende «V = vegan» und Preisvermerk bleiben immer sichtbar.
+- Abnahmekriterien:
+  - [x] DE und EN: 7 Sparten in der Bistro-Karte und 9 im Brotladen, alle beim Laden zugeklappt (lokal geprüft 17.11.2026)
+  - [x] Klick auf einen Titel öffnet die Sparte, erneuter Klick schliesst sie; zwei Sparten gleichzeitig offen möglich
+  - [x] Anzahl Produkte und V-Kennzeichnungen gleich wie vorher (je 138 Listenzeilen, 23 V pro Sprache)
+  - [x] Darstellung auf Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -205,3 +220,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.10 | 9.11.2026 | A-13: Titel der drei Schwerpunkte im Titelbild anklickbar |
 | 0.11 | 10.11.2026 | A-14: vegane Produkte im Brotladen mit «V» gekennzeichnet (Quelle: Fredy's vegane Produkteliste) |
 | 0.12 | 17.11.2026 | A-15: Vorschaubild Brotkorb für Google, grosse Vorschaubilder erlaubt, Website-Name «z'Pfünderli Grächen» |
+| 0.13 | 17.11.2026 | A-16: Sparten der Bistro-Karte und des Brotladens aufklappbar |

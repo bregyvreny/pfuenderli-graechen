@@ -51,7 +51,16 @@ img { max-width: 100%; height: auto; display: block; }
 .pf-karte { background: #fff; border-radius: 10px; padding: 1rem 1.25rem; }
 .pf-karte h3 { font-family: var(--schrift-titel); color: var(--farbe-akzent); margin: 0 0 .5rem; font-size: 1.25rem; }
 .pf-karte h4 { margin: 1rem 0 .25rem; font-size: 1rem; color: var(--farbe-haupt); }
-.pf-karte h3 + .preisliste + h3 { margin-top: 1rem; }
+/* SPEC A-16: Sparten aufklappbar (details/summary, ohne JavaScript) */
+.pf-karten { grid-template-columns: 1fr; max-width: 46rem; gap: .6rem; }
+.pf-karte > summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin: -1rem -1.25rem; padding: 1rem 1.25rem; border-radius: 10px; }
+.pf-karte > summary::-webkit-details-marker { display: none; }
+.pf-karte > summary h3 { margin: 0; }
+.pf-karte > summary::after { content: ""; flex: none; width: .55rem; height: .55rem; border-right: 2px solid var(--farbe-akzent); border-bottom: 2px solid var(--farbe-akzent); transform: rotate(45deg) translate(-2px, -2px); transition: transform .2s; }
+.pf-karte[open] > summary::after { transform: rotate(-135deg) translate(-2px, -2px); }
+.pf-karte[open] > summary { margin-bottom: .5rem; }
+.pf-karte > summary:hover h3 { text-decoration: underline; text-underline-offset: .2em; }
+.pf-karte > summary:focus-visible { outline: 2px solid var(--farbe-akzent); outline-offset: 2px; }
 .preisliste { list-style: none; margin: 0; padding: 0; }
 .preisliste li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .35rem 0; border-bottom: 1px dotted #C9C5BB; }
 .preisliste li:last-child { border-bottom: 0; }
