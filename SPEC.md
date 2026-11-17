@@ -188,6 +188,18 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Anzahl Produkte und V-Kennzeichnungen gleich wie vorher (je 138 Listenzeilen, 23 V pro Sprache)
   - [x] Darstellung auf Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
 
+### A-17 z'Pfünderli-Seite: Sparten klappen auf wie ein Blatt
+- Priorität: Kann · Status: freigegeben durch Vreny (17.11.2026, Variante «A»)
+- Ergänzt A-16: Beim Öffnen einer Sparte schwenkt der Inhalt von links nach rechts auf, wie eine Seite, die umgeblättert wird (Dauer ca. 0,5 Sekunden).
+- Nur beim Öffnen; das Schliessen geschieht ohne Animation.
+- Umsetzung nur mit CSS (ohne JavaScript). Wer im Gerät «Bewegung reduzieren» eingestellt hat, sieht keine Animation.
+- Anordnung, Inhalte und Verhalten aus A-16 bleiben unverändert.
+- Abnahmekriterien:
+  - [x] Beim Öffnen einer Sparte läuft die Blatt-Animation von links nach rechts – DE und EN (lokal geprüft 17.11.2026)
+  - [x] Nach der Animation sieht die Sparte genau gleich aus wie vorher
+  - [x] Bei «Bewegung reduzieren» keine Animation (nur im CSS-Code geprüft: Animation steht in `@media (prefers-reduced-motion: no-preference)`, nicht im Browser getestet)
+  - [x] Handy (375 px) ohne seitliches Scrollen, auch während der Animation; keine Konsolenfehler
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -221,3 +233,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.11 | 10.11.2026 | A-14: vegane Produkte im Brotladen mit «V» gekennzeichnet (Quelle: Fredy's vegane Produkteliste) |
 | 0.12 | 17.11.2026 | A-15: Vorschaubild Brotkorb für Google, grosse Vorschaubilder erlaubt, Website-Name «z'Pfünderli Grächen» |
 | 0.13 | 17.11.2026 | A-16: Sparten der Bistro-Karte und des Brotladens aufklappbar |
+| 0.14 | 17.11.2026 | A-17: Sparten klappen beim Öffnen auf wie ein Blatt (Animation) |

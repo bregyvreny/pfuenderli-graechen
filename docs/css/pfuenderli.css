@@ -60,7 +60,16 @@ img { max-width: 100%; height: auto; display: block; }
 .pf-karte[open] > summary::after { transform: rotate(-135deg) translate(-2px, -2px); }
 .pf-karte[open] > summary { margin-bottom: .5rem; }
 .pf-karte > summary:hover h3 { text-decoration: underline; text-underline-offset: .2em; }
-.pf-karte > summary:focus-visible { outline: 2px solid var(--farbe-akzent); outline-offset: 2px; }
+.pf-karte > summary:focus-visible { outline: 2px solid var(--farbe-akzent); outline-offset: -3px; }
+/* SPEC A-17: Inhalt schwenkt beim Öffnen von links nach rechts auf, wie ein Blatt */
+.pf-karte { overflow: hidden; perspective: 1200px; }
+@media (prefers-reduced-motion: no-preference) {
+  .pf-karte[open] > :not(summary) { transform-origin: left center; animation: pf-blatt .5s ease-out both; }
+}
+@keyframes pf-blatt {
+  from { transform: rotateY(-80deg); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}
 .preisliste { list-style: none; margin: 0; padding: 0; }
 .preisliste li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .35rem 0; border-bottom: 1px dotted #C9C5BB; }
 .preisliste li:last-child { border-bottom: 0; }
