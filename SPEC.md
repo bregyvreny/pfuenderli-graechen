@@ -248,6 +248,20 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
   - [x] B-Kästchen weiss mit braunem Rand und brauner Schrift, H unverändert braun ausgefüllt – in Liste und Legende, DE und EN (lokal geprüft 18.11.2026: je 4 B inkl. Legende, keine Konsolenfehler)
 
+### A-20 Brotladen: vier neue Produkte unter «Süsses»
+- Priorität: Soll · Status: freigegeben durch Vreny (18.11.2026: Preise und «alle 4 mit H», «ja auch auf die Website»)
+- Quelle: Angaben Vreny 18.11.2026, gleich wie in `Geschäft\Bä\Preislisten\Preisliste-neu-Entwurf.xlsx` (dort am 18.11.2026 nachgeführt).
+- Neu in der Sparte «Süsses» (DE und EN), alle mit Zeichen H (hausgemacht), Reihenfolge wie Preisliste:
+  - Mini Berliner 1.80 (nach Donut) – EN «Mini Berliner (filled doughnut)»
+  - Schnäggini 2.80 (nach Muffin) – EN «Schnäggini»
+  - Cheese-Cake 4.50 (nach Torte, Stück) – EN «Cheesecake»
+  - Nutellatürmli 8.50 (nach Tiramisu) – EN «Nutellatürmli»
+- Annahme (Claude): EN-Bezeichnungen wie oben; Vreny kann sie ändern lassen.
+- Abnahmekriterien:
+  - [x] Die vier Produkte stehen mit Preis und H in «Süsses» – DE und EN, Reihenfolge wie oben (lokal geprüft 18.11.2026: je 18 H inkl. Legende, vorher 14)
+  - [x] Übrige Produkte und Preise im Brotladen unverändert (Diff: nur 4 neue Zeilen pro Sprache)
+  - [x] Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler (375 und 1280 px geprüft)
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -285,3 +299,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.15 | 17.11.2026 | A-18: Neuheiten, saisonale Angebote und Aktionen mit Ablaufdatum |
 | 0.16 | 18.11.2026 | A-19: Brotladen nach Preisliste – Zeichen H und B, Sortiment und Reihenfolge, Fondue-Preis 11.00 p. P., Pizza 27 cm |
 | 0.17 | 18.11.2026 | A-19 ergänzt: Zeichen B umgekehrt (weiss mit braunem Rand) |
+| 0.18 | 18.11.2026 | A-20: Mini Berliner, Schnäggini, Cheese-Cake, Nutellatürmli im Brotladen (H) |
