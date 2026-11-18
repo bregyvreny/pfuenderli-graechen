@@ -229,7 +229,7 @@ Domain: `https://pfuenderli-graechen.ch`
 - Quelle: `Geschäft\Bä\Preisliste-neu-Entwurf.pdf` (Druckdatum 10.11.2026), Legende «H = hausgemacht · B = nur auf Bestellung · V = vegan · □ = Preis im Laden».
 - Gilt für den Abschnitt «Brotladen & Take-away» (DE und EN), wie das V aus A-14. Bistro-Karte unverändert, ausser Pizza-Grösse «27 cm» (laut Preisliste).
 - **Zeichen H** (braun, Stil wie das V) statt des Worts «hausgemacht»: Hüsbrot zweifarbig, Para-Pan / Eiweissbrot, Maisbrot mit Käse und Zwiebeln, Ur-Dinkel-Früchtebrot, Roggenbrot natur, Roggenbrot Früchte/Nüsse, Apfelstrudel, Torte (Stück), Tartelette, Tiramisu, Greecherli / Früchtekuchen, Konfitüre, Sirup (Konfitüre und Sirup neu, laut Preisliste).
-- **Zeichen B** (braun) statt «nur auf Bestellung»: Fonduebrot, Ur-Dinkel-Früchtebrot, Roggenbrot Früchte/Nüsse.
+- **Zeichen B** (umgekehrt: weiss mit braunem Rand und brauner Schrift, damit es sich auch ohne Farbsehen vom H unterscheidet; Ergänzung 18.11.2026, freigegeben durch Vreny «du kannst es umsetzen») statt «nur auf Bestellung»: Fonduebrot, Ur-Dinkel-Früchtebrot, Roggenbrot Früchte/Nüsse.
 - Reihenfolge der Zeichen wie auf der Preisliste: H, B, V. Beim Darüberfahren bzw. für Vorleseprogramme das ausgeschriebene Wort.
 - EN: gleiche Buchstaben H, B, V wie auf der gedruckten Preisliste; Legende auf Englisch («H = homemade · B = to order only · V = vegan»).
 - Legende unter dem Brotladen: «H = hausgemacht · B = nur auf Bestellung · V = vegan» (ersetzt «V = vegan»).
@@ -238,7 +238,7 @@ Domain: `https://pfuenderli-graechen.ch`
 - **Sortiment und Reihenfolge wie Preisliste:** Sparten Gipfeli, Brötli, Zopf, Brote, Holzofenbrote, Hausgemachte Brote, Süsses, Für die Ferienwohnung, Käse & Fondue, Getränke zum Mitnehmen (10 Sparten statt 9; «Holzofen & hausgemacht» wird in «Holzofenbrote» und «Hausgemachte Brote» geteilt; «Für das Apartment» heisst «Für die Ferienwohnung»). Reihenfolge der Produkte innerhalb der Sparten wie Preisliste.
 - Neu bzw. getrennt: Früchtejoghurt-Brötli und Cranberry-Brötli (je 2.00); Holzofen Pane alle olive (Olivenbrot) und Pane al pomodoro (Tomatenbrot) (je 7.50, V); Granini Orangensaft 1 l und Multivitaminsaft 1 l (je 5.00); Joghurt (1.20); Bier alkoholfrei (4.50).
 - Bleibt wie bisher (bewusst nicht von der Preisliste übernommen): Fruchtsorten beim Greecherli (Preisliste: «versch. Früchte»); Getränke zum Mitnehmen gruppiert statt einzeln (gleiche Preise).
-- Sandwich Trockenfleisch / Rohschinken: 6.50 (Angabe Vreny 18.11.2026) – Website stimmt bereits; im Preisliste-Entwurf steht 6.00 (dort korrigieren).
+- Sandwich Trockenfleisch / Rohschinken: 6.50 (Angabe Vreny 18.11.2026) – Website stimmt bereits; im Preisliste-Entwurf von Vreny auf 6.50 korrigiert (Angabe Vreny 18.11.2026).
 - Abnahmekriterien:
   - [x] Alle oben genannten Produkte tragen H bzw. B – DE und EN; kein «hausgemacht» bzw. «nur auf Bestellung» mehr als Wort in diesen Zeilen (lokal geprüft 18.11.2026: je 13 H, 3 B)
   - [x] Kein anderes Produkt trägt H oder B; V bei denselben Produkten wie bisher (Olivenbrot und Tomatenbrot je mit V, weil getrennt; neu 23 V in der Liste pro Sprache)
@@ -246,6 +246,7 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Legende mit H, B und V sichtbar unter dem Brotladen – DE und EN
   - [x] Fonduemischung zeigt 11.00 pro Person (200 g)
   - [x] Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
+  - [x] B-Kästchen weiss mit braunem Rand und brauner Schrift, H unverändert braun ausgefüllt – in Liste und Legende, DE und EN (lokal geprüft 18.11.2026: je 4 B inkl. Legende, keine Konsolenfehler)
 
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
@@ -283,3 +284,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.14 | 17.11.2026 | A-17: Sparten klappen beim Öffnen auf wie ein Blatt (Animation) |
 | 0.15 | 17.11.2026 | A-18: Neuheiten, saisonale Angebote und Aktionen mit Ablaufdatum |
 | 0.16 | 18.11.2026 | A-19: Brotladen nach Preisliste – Zeichen H und B, Sortiment und Reihenfolge, Fondue-Preis 11.00 p. P., Pizza 27 cm |
+| 0.17 | 18.11.2026 | A-19 ergänzt: Zeichen B umgekehrt (weiss mit braunem Rand) |
