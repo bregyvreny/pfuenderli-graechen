@@ -255,7 +255,7 @@ Domain: `https://pfuenderli-graechen.ch`
   - Mini Berliner 1.80 (nach Donut) – EN «Mini Berliner (filled doughnut)»
   - Schnäggini 2.80 (nach Muffin) – EN «Schnäggini»
   - Cheese-Cake 4.50 (nach Torte, Stück) – EN «Cheesecake»
-  - Nutellatürmli 8.50 (nach Tiramisu) – EN «Nutellatürmli»
+  - Nutella-Türmli 8.50 (nach Tiramisu) – EN «Nutella-Türmli» (Schreibweise mit Bindestrich: Entscheid Vreny 18.11.2026)
 - Annahme (Claude): EN-Bezeichnungen wie oben; Vreny kann sie ändern lassen.
 - Abnahmekriterien:
   - [x] Die vier Produkte stehen mit Preis und H in «Süsses» – DE und EN, Reihenfolge wie oben (lokal geprüft 18.11.2026: je 18 H inkl. Legende, vorher 14)
@@ -299,4 +299,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.15 | 17.11.2026 | A-18: Neuheiten, saisonale Angebote und Aktionen mit Ablaufdatum |
 | 0.16 | 18.11.2026 | A-19: Brotladen nach Preisliste – Zeichen H und B, Sortiment und Reihenfolge, Fondue-Preis 11.00 p. P., Pizza 27 cm |
 | 0.17 | 18.11.2026 | A-19 ergänzt: Zeichen B umgekehrt (weiss mit braunem Rand) |
-| 0.18 | 18.11.2026 | A-20: Mini Berliner, Schnäggini, Cheese-Cake, Nutellatürmli im Brotladen (H) |
+| 0.18 | 18.11.2026 | A-20: Mini Berliner, Schnäggini, Cheese-Cake, Nutella-Türmli im Brotladen (H) |
