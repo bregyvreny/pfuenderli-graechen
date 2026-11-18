@@ -79,7 +79,9 @@ img { max-width: 100%; height: auto; display: block; }
 .pf-liste-text { color: var(--farbe-text-leise); margin: .25rem 0; }
 .pf-vermerk { margin-top: 1rem; color: var(--farbe-text-leise); font-size: .95rem; }
 /* SPEC A-14: vegane Produkte mit «V» wie auf der Preisliste */
-.pf-v { display: inline-block; margin-left: .15em; padding: 0 .34em; border-radius: 3px; background: var(--farbe-haupt); color: #fff; font-size: .72rem; font-weight: 700; line-height: 1.5; vertical-align: .12em; text-decoration: none; border: 0; cursor: help; }
+.pf-v, .pf-h, .pf-b { display: inline-block; margin-left: .15em; padding: 0 .34em; border-radius: 3px; background: var(--farbe-haupt); color: #fff; font-size: .72rem; font-weight: 700; line-height: 1.5; vertical-align: .12em; text-decoration: none; border: 0; cursor: help; }
+/* SPEC A-19: H = hausgemacht, B = nur auf Bestellung (braun wie auf der Preisliste) */
+.pf-h, .pf-b { background: var(--farbe-akzent); }
 .pf-legende { margin: 1rem 0 0; color: var(--farbe-text-leise); font-size: .95rem; }
 .pf-legende + .pf-vermerk { margin-top: .25rem; }
 .pf-shop-liste { margin: .5rem 0 0; padding-left: 1.25rem; }

@@ -176,7 +176,7 @@ Domain: `https://pfuenderli-graechen.ch`
 ### A-16 z'Pfünderli-Seite: Sparten aufklappbar
 - Priorität: Soll · Status: freigegeben durch Vreny (17.11.2026, Auswahl im Chat); Ergebnis online von Vreny bestätigt (17.11.2026, «übersichtlicher, passt so»)
 - Wunsch Vreny: Die Darstellung der Produkte stört; die Sparten sollen einzeln aufklappen, wenn man sie anklickt.
-- Gilt für die Bistro-Karte (7 Sparten) und den Brotladen (9 Sparten: «Gipfeli» und «Zopf» werden getrennt), DE und EN. Swiss-Knife-Shop unverändert.
+- Gilt für die Bistro-Karte (7 Sparten) und den Brotladen (9 Sparten: «Gipfeli» und «Zopf» werden getrennt), DE und EN. Seit A-19 (18.11.2026) hat der Brotladen 10 Sparten. Swiss-Knife-Shop unverändert.
 - Beim Laden der Seite sind alle Sparten zugeklappt; sichtbar ist nur der Titel mit einem Pfeil.
 - Klick auf den Titel öffnet bzw. schliesst die Sparte; mehrere Sparten können gleichzeitig offen sein.
 - Umsetzung ohne JavaScript (HTML-Element `<details>`/`<summary>`), bedienbar mit Tastatur.
@@ -224,6 +224,29 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
   - Test-Einträge nach der Prüfung wieder entfernt.
 
+### A-19 Brotladen nach Preisliste: Zeichen H und B, Sortiment, Fondue-Preis
+- Priorität: Soll · Status: freigegeben durch Vreny (18.11.2026: «alles andere übernehmen von der Preisliste», Fondue-Preis, «Sandwich 6.50»)
+- Quelle: `Geschäft\Bä\Preisliste-neu-Entwurf.pdf` (Druckdatum 10.11.2026), Legende «H = hausgemacht · B = nur auf Bestellung · V = vegan · □ = Preis im Laden».
+- Gilt für den Abschnitt «Brotladen & Take-away» (DE und EN), wie das V aus A-14. Bistro-Karte unverändert, ausser Pizza-Grösse «27 cm» (laut Preisliste).
+- **Zeichen H** (braun, Stil wie das V) statt des Worts «hausgemacht»: Hüsbrot zweifarbig, Para-Pan / Eiweissbrot, Maisbrot mit Käse und Zwiebeln, Ur-Dinkel-Früchtebrot, Roggenbrot natur, Roggenbrot Früchte/Nüsse, Apfelstrudel, Torte (Stück), Tartelette, Tiramisu, Greecherli / Früchtekuchen, Konfitüre, Sirup (Konfitüre und Sirup neu, laut Preisliste).
+- **Zeichen B** (braun) statt «nur auf Bestellung»: Fonduebrot, Ur-Dinkel-Früchtebrot, Roggenbrot Früchte/Nüsse.
+- Reihenfolge der Zeichen wie auf der Preisliste: H, B, V. Beim Darüberfahren bzw. für Vorleseprogramme das ausgeschriebene Wort.
+- EN: gleiche Buchstaben H, B, V wie auf der gedruckten Preisliste; Legende auf Englisch («H = homemade · B = to order only · V = vegan»).
+- Legende unter dem Brotladen: «H = hausgemacht · B = nur auf Bestellung · V = vegan» (ersetzt «V = vegan»).
+- «Preis im Laden» bleibt als Text (kein Kästchen □).
+- **Horu-Fonduemischung:** Preis 11.00 pro Person (200 g), statt «Preis im Laden» (Angabe Vreny 18.11.2026). Kein B – Vorbestellung nicht nötig, nur das Fonduebrot (Angabe Vreny 18.11.2026).
+- **Sortiment und Reihenfolge wie Preisliste:** Sparten Gipfeli, Brötli, Zopf, Brote, Holzofenbrote, Hausgemachte Brote, Süsses, Für die Ferienwohnung, Käse & Fondue, Getränke zum Mitnehmen (10 Sparten statt 9; «Holzofen & hausgemacht» wird in «Holzofenbrote» und «Hausgemachte Brote» geteilt; «Für das Apartment» heisst «Für die Ferienwohnung»). Reihenfolge der Produkte innerhalb der Sparten wie Preisliste.
+- Neu bzw. getrennt: Früchtejoghurt-Brötli und Cranberry-Brötli (je 2.00); Holzofen Pane alle olive (Olivenbrot) und Pane al pomodoro (Tomatenbrot) (je 7.50, V); Granini Orangensaft 1 l und Multivitaminsaft 1 l (je 5.00); Joghurt (1.20); Bier alkoholfrei (4.50).
+- Bleibt wie bisher (bewusst nicht von der Preisliste übernommen): Fruchtsorten beim Greecherli (Preisliste: «versch. Früchte»); Getränke zum Mitnehmen gruppiert statt einzeln (gleiche Preise).
+- Sandwich Trockenfleisch / Rohschinken: 6.50 (Angabe Vreny 18.11.2026) – Website stimmt bereits; im Preisliste-Entwurf steht 6.00 (dort korrigieren).
+- Abnahmekriterien:
+  - [x] Alle oben genannten Produkte tragen H bzw. B – DE und EN; kein «hausgemacht» bzw. «nur auf Bestellung» mehr als Wort in diesen Zeilen (lokal geprüft 18.11.2026: je 13 H, 3 B)
+  - [x] Kein anderes Produkt trägt H oder B; V bei denselben Produkten wie bisher (Olivenbrot und Tomatenbrot je mit V, weil getrennt; neu 23 V in der Liste pro Sprache)
+  - [x] Sparten, Produkte und Preise im Brotladen entsprechen der Preisliste (mit den genannten Ausnahmen; alter und neuer Stand Zeile für Zeile verglichen, keine Preisänderung ausser Fondue)
+  - [x] Legende mit H, B und V sichtbar unter dem Brotladen – DE und EN
+  - [x] Fonduemischung zeigt 11.00 pro Person (200 g)
+  - [x] Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -259,3 +282,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.13 | 17.11.2026 | A-16: Sparten der Bistro-Karte und des Brotladens aufklappbar |
 | 0.14 | 17.11.2026 | A-17: Sparten klappen beim Öffnen auf wie ein Blatt (Animation) |
 | 0.15 | 17.11.2026 | A-18: Neuheiten, saisonale Angebote und Aktionen mit Ablaufdatum |
+| 0.16 | 18.11.2026 | A-19: Brotladen nach Preisliste – Zeichen H und B, Sortiment und Reihenfolge, Fondue-Preis 11.00 p. P., Pizza 27 cm |
