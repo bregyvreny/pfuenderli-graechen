@@ -285,6 +285,13 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Preiskästen und Karten zeigen «max. …» – DE und EN
   - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 19.11.2026, 375 px ohne seitliches Scrollen)
 
+### A-23 Stornierung: später als 14 Tage vor Anreise zwei Übernachtungen
+- Priorität: Muss · Status: freigegeben durch Vreny (19.11.2026: «bei Stornierung ab 14 Tage 2 Übernachtungen»)
+- Startseite, Preise · Stornierung: «Bis 14 Tage vor Anreise kostenlos. Bei späterer Stornierung verrechnen wir zwei Übernachtungen.» (bisher «eine Übernachtung»); EN «… we charge two nights.»
+- Hinweise «Kostenlos stornierbar bis 14 Tage vor Anreise» bleiben unverändert.
+- Abnahmekriterien:
+  - [x] DE und EN zeigen «zwei Übernachtungen» / «two nights»; «eine Übernachtung» / «one night» kommt nicht mehr vor (lokal geprüft 19.11.2026)
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -325,3 +332,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.18 | 18.11.2026 | A-20: Mini Berliner, Schnäggini, Cheese-Cake, Nutella-Türmli im Brotladen (H) |
 | 0.19 | 19.11.2026 | A-21: Mindestaufenthalt EFEU/EGGERI 2 Nächte, Kornstadel 3 Nächte |
 | 0.20 | 19.11.2026 | A-22: Pauschalpreis-Text ohne «egal wie viele Gäste», maximale Personenzahl verbindlich |
+| 0.21 | 19.11.2026 | A-23: Stornierung später als 14 Tage vor Anreise: zwei Übernachtungen |
