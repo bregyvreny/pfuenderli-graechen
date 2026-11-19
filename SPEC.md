@@ -273,6 +273,18 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Startseite zeigt ihn in allen drei Karten – DE und EN (EFEU 2, EGGERI 2, ARIDA 3)
   - [x] Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler (nur die bekannten easybooking-Meldungen auf localhost)
 
+### A-22 Pauschalpreis ohne «egal wie viele Gäste», maximale Personenzahl verbindlich
+- Priorität: Muss · Status: freigegeben durch Vreny (19.11.2026: «die Maximal-Belegung muss zwingend eingehalten werden», Vorschlag «ja ok so»)
+- Startseite, Vorteile: «Pauschalpreis pro Nacht – Ein Preis für das ganze Apartment, alles inklusive. Keine Zusatzkosten vor Ort.» (statt «egal wie viele Gäste»)
+- Startseite, Preise: «Ein Tagespauschalpreis für das ganze Apartment – alles inklusive, keine weiteren Kosten vor Ort. Die angegebene maximale Personenzahl ist verbindlich.» (statt «unabhängig von der Anzahl Gäste»)
+- Unterkunftsseiten (Preiskasten) und Startseiten-Karten: «max. 6/4 Personen» bzw. «max. 6/4 Pers.» statt «1–6/1–4».
+- EN entsprechend: «One flat rate for the whole apartment, everything included.» / «The stated maximum number of guests is binding.» / «max. 6/4 guests».
+- Abnahmekriterien:
+  - [x] «egal wie viele Gäste», «unabhängig von der Anzahl Gäste», «no matter how many guests», «regardless of the number of guests» kommen nicht mehr vor
+  - [x] Satz zur verbindlichen Personenzahl steht bei «Preise» – DE und EN
+  - [x] Preiskästen und Karten zeigen «max. …» – DE und EN
+  - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 19.11.2026, 375 px ohne seitliches Scrollen)
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -312,3 +324,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.17 | 18.11.2026 | A-19 ergänzt: Zeichen B umgekehrt (weiss mit braunem Rand) |
 | 0.18 | 18.11.2026 | A-20: Mini Berliner, Schnäggini, Cheese-Cake, Nutella-Türmli im Brotladen (H) |
 | 0.19 | 19.11.2026 | A-21: Mindestaufenthalt EFEU/EGGERI 2 Nächte, Kornstadel 3 Nächte |
+| 0.20 | 19.11.2026 | A-22: Pauschalpreis-Text ohne «egal wie viele Gäste», maximale Personenzahl verbindlich |
