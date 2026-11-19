@@ -262,6 +262,17 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Übrige Produkte und Preise im Brotladen unverändert (Diff: nur 4 neue Zeilen pro Sprache)
   - [x] Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler (375 und 1280 px geprüft)
 
+### A-21 Mindestaufenthalt der Unterkünfte
+- Priorität: Muss · Status: freigegeben durch Vreny (19.11.2026: «Mindestaufenthalt noch nachtragen: Eggeri und Efeu 2 Nächte, Kornstadel 3 Nächte»)
+- Apartment EFEU: mindestens 2 Nächte · Apartment EGGERI: mindestens 2 Nächte · Kornstadel ARIDA PRATA: mindestens 3 Nächte.
+- Angezeigt auf der jeweiligen Unterkunftsseite im Preiskasten (unter «1–… Personen, alles inklusive») und auf der Startseite in der Karte der Unterkunft (bei Preis und Personenzahl) – DE und EN.
+- DE «Mindestaufenthalt: 2 Nächte» / Karte «mind. 2 Nächte»; EN «Minimum stay: 2 nights» / Karte «min. 2 nights».
+- Nicht Teil dieser Anforderung: Einstellung im Buchungssystem easybooking (macht Vreny dort selbst).
+- Abnahmekriterien:
+  - [x] Alle drei Unterkunftsseiten zeigen den richtigen Mindestaufenthalt – DE und EN (lokal geprüft 19.11.2026)
+  - [x] Startseite zeigt ihn in allen drei Karten – DE und EN (EFEU 2, EGGERI 2, ARIDA 3)
+  - [x] Handy (375 px, kein seitliches Scrollen) und Desktop in Ordnung, keine Konsolenfehler (nur die bekannten easybooking-Meldungen auf localhost)
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -300,3 +311,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.16 | 18.11.2026 | A-19: Brotladen nach Preisliste – Zeichen H und B, Sortiment und Reihenfolge, Fondue-Preis 11.00 p. P., Pizza 27 cm |
 | 0.17 | 18.11.2026 | A-19 ergänzt: Zeichen B umgekehrt (weiss mit braunem Rand) |
 | 0.18 | 18.11.2026 | A-20: Mini Berliner, Schnäggini, Cheese-Cake, Nutella-Türmli im Brotladen (H) |
+| 0.19 | 19.11.2026 | A-21: Mindestaufenthalt EFEU/EGGERI 2 Nächte, Kornstadel 3 Nächte |
