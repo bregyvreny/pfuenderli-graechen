@@ -327,6 +327,15 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Vermerk DE und EN zeigt Winter 2027, kein «Sommer 2026» / «summer 2026» mehr auf der Website (lokal geprüft 20.11.2026)
   - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 20.11.2026, 375 px ohne seitliches Scrollen)
 
+### A-27 Raclette du Valais AOP
+- Priorität: Soll · Status: freigegeben durch Vreny (20.11.2026: Raclette mit der roten Etikette aus Turtmann = «Raclette du Valais AOP» der Augstbordkäserei; auf Preisliste und Menükarte mit AOP, auch auf der Pizza; «Ja, Website auch»)
+- Seite z'Pfünderli, wie Preisliste Winter 2027:
+  - Käse & Fondue: «Raclettekäse der Augstbordkäserei» → «Raclette du Valais AOP Turtmann» (EN: «Raclette cheese from the Augstbord dairy» → «Raclette du Valais AOP Turtmann»)
+  - Pizza Walliser: «Raclettekäse» → «Raclette du Valais AOP» (EN: «raclette cheese» → «Raclette du Valais AOP»)
+- Abnahmekriterien:
+  - [x] Beide Stellen DE und EN geändert, kein anderer Text verändert (lokal geprüft 20.11.2026)
+  - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 20.11.2026, 375 px ohne seitliches Scrollen)
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -371,3 +380,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.22 | 20.11.2026 | A-24: E-Mail-Adresse Swiss-Knife-Shop (swissknifeshop@bluewin.ch) im Impressum und im Shop-Abschnitt |
 | 0.23 | 20.11.2026 | A-25: Zeichen H weiss mit braunem Rand, Zeichen B braun gefüllt (Stil getauscht) |
 | 0.24 | 20.11.2026 | A-26: Preisvermerk «Stand Winter 2027» |
+| 0.25 | 20.11.2026 | A-27: Raclette du Valais AOP (Käse & Fondue, Pizza Walliser) |
