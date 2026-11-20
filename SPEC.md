@@ -292,6 +292,19 @@ Domain: `https://pfuenderli-graechen.ch`
 - Abnahmekriterien:
   - [x] DE und EN zeigen «zwei Übernachtungen» / «two nights»; «eine Übernachtung» / «one night» kommt nicht mehr vor (lokal geprüft 19.11.2026)
 
+### A-24 E-Mail-Adresse Swiss-Knife-Shop
+- Priorität: Soll · Status: freigegeben durch Vreny (20.11.2026: swissknifeshop@bluewin.ch «läuft», soll auf die Website: «ja bitte»; Vorschlag «Ja, umsetzen»)
+- Impressum, Abschnitt «Kontakt»: bisher eine Zeile «z'Pfünderli und Swiss-Knife-Shop: +41 79 695 54 32 · pfuenderli@bluewin.ch». Neu zwei Zeilen:
+  - «z'Pfünderli: +41 79 695 54 32 · pfuenderli@bluewin.ch»
+  - «Swiss-Knife-Shop: +41 79 695 54 32 · swissknifeshop@bluewin.ch»
+- Seite z'Pfünderli, Abschnitt «Swiss-Knife-Shop» (unter den Fotos): neue Zeile «Kontakt Swiss-Knife-Shop: +41 79 695 54 32 · swissknifeshop@bluewin.ch» (Telefon und E-Mail als Link).
+- EN entsprechend: «z'Pfünderli: …» / «Swiss Knife Shop: …» bzw. «Contact Swiss Knife Shop: …».
+- Unverändert: Apartments (brv@bluewin.ch), Fusszeile der Pfünderli-Seite (pfuenderli@bluewin.ch), Datenschutz.
+- Abnahmekriterien:
+  - [x] swissknifeshop@bluewin.ch steht im Impressum und im Shop-Abschnitt – DE und EN, als funktionierender mailto-Link (lokal geprüft 20.11.2026)
+  - [x] z'Pfünderli behält pfuenderli@bluewin.ch, Apartments brv@bluewin.ch (lokal geprüft 20.11.2026)
+  - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 20.11.2026, 375 px ohne seitliches Scrollen)
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -333,3 +346,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.19 | 19.11.2026 | A-21: Mindestaufenthalt EFEU/EGGERI 2 Nächte, Kornstadel 3 Nächte |
 | 0.20 | 19.11.2026 | A-22: Pauschalpreis-Text ohne «egal wie viele Gäste», maximale Personenzahl verbindlich |
 | 0.21 | 19.11.2026 | A-23: Stornierung später als 14 Tage vor Anreise: zwei Übernachtungen |
+| 0.22 | 20.11.2026 | A-24: E-Mail-Adresse Swiss-Knife-Shop (swissknifeshop@bluewin.ch) im Impressum und im Shop-Abschnitt |

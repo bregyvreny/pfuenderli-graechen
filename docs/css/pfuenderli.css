@@ -87,6 +87,7 @@ img { max-width: 100%; height: auto; display: block; }
 .pf-legende + .pf-vermerk { margin-top: .25rem; }
 .pf-shop-liste { margin: .5rem 0 0; padding-left: 1.25rem; }
 .pf-shop-liste li { margin: .25rem 0; }
+.pf-shop-kontakt { margin: 1rem 0 0; overflow-wrap: anywhere; }
 .pf-shop-bild { border-radius: 8px; margin-top: 1rem; max-height: 28rem; width: 100%; object-fit: cover; }
 .pf-fuss { background: var(--farbe-haupt-hover); color: #F5F4F0; text-align: center; padding: 1.5rem 1rem; }
 .pf-fuss a { color: #fff; white-space: nowrap; }
