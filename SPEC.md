@@ -305,6 +305,18 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] z'Pfünderli behält pfuenderli@bluewin.ch, Apartments brv@bluewin.ch (lokal geprüft 20.11.2026)
   - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 20.11.2026, 375 px ohne seitliches Scrollen)
 
+### A-25 Zeichen H und B: Stil getauscht
+- Priorität: Soll · Status: freigegeben durch Vreny (20.11.2026: «braunes H in leerem Kästchen nur Rand braun»; auf den Hinweis, dass H und B dann gleich aussähen: «B anders machen» → «Braun gefüllt», «B mit braunem Kästchen»)
+- Seite z'Pfünderli (DE und EN), überall wo die Zeichen vorkommen, auch in der Legende:
+  - **H** (hausgemacht): bisher brauner Hintergrund mit weissem Buchstaben. Neu: Hintergrund leer (weiss), brauner Rand, brauner Buchstabe H.
+  - **B** (nur auf Bestellung): bisher weiss mit braunem Rand. Neu: braunes Kästchen mit weissem Buchstaben B.
+- Unverändert: **V** (grün, weisser Buchstabe). Ändert die Darstellung aus A-19.
+- Abnahmekriterien:
+  - [x] H erscheint als leeres Kästchen mit braunem Rand und braunem Buchstaben – DE und EN (lokal geprüft 20.11.2026)
+  - [x] B erscheint als braunes Kästchen mit weissem Buchstaben – DE und EN (lokal geprüft 20.11.2026)
+  - [x] V unverändert (lokal geprüft 20.11.2026)
+  - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 20.11.2026, 375 px ohne seitliches Scrollen)
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -347,3 +359,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.20 | 19.11.2026 | A-22: Pauschalpreis-Text ohne «egal wie viele Gäste», maximale Personenzahl verbindlich |
 | 0.21 | 19.11.2026 | A-23: Stornierung später als 14 Tage vor Anreise: zwei Übernachtungen |
 | 0.22 | 20.11.2026 | A-24: E-Mail-Adresse Swiss-Knife-Shop (swissknifeshop@bluewin.ch) im Impressum und im Shop-Abschnitt |
+| 0.23 | 20.11.2026 | A-25: Zeichen H weiss mit braunem Rand, Zeichen B braun gefüllt (Stil getauscht) |
