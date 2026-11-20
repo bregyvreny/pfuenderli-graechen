@@ -71,7 +71,7 @@ Domain: `https://pfuenderli-graechen.ch`
 - Entscheide von Vreny (6.11.2026):
   - Schreibweise überall «z'Pfünderli» (grosses P).
   - Adresse: z'Pfünderli, Brotladen & Bistro, Dorfstrasse 152, 3925 Grächen. Telefon +41 79 695 54 32, pfuenderli@bluewin.ch. Öffnungszeiten täglich 06.59–19.01 Uhr; Hinweis «Bis 12. Dezember 2026 geschlossen» (danach entfernen).
-  - Mit Preisen; ohne Preis («Preis im Laden»): Eier, Käse, Fondue, Wein im Direktverkauf. Vermerk «Preise in CHF, Stand Sommer 2026, Änderungen vorbehalten».
+  - Mit Preisen; ohne Preis («Preis im Laden»): Eier, Käse, Fondue, Wein im Direktverkauf. Vermerk «Preise in CHF, Stand Sommer 2026, Änderungen vorbehalten» (seit A-26: «Stand Winter 2027»).
   - Preisdetails: Konfitüre 200 g 5.00 / 300 g 7.00; Sirup 0,5 l 8.00; Tartelettes klein 3.50 / gross 8.50; Sandwiches 5.00–6.50; Roggenbrot natur 250 g 3.00 / 500 g 5.00 / 1000 g 8.50; Roggenbrot Früchte/Nüsse 500 g 6.00 / 1000 g 9.50.
   - Entfernt: Greecherli warm mit Rahm, Ciabatta-Sandwichbrötli, Schoko-Donut, Schoko-Muffin (Chocofan).
   - Pizza, Sandwiches und Hot-Dogs auch Take-away.
@@ -317,6 +317,16 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] V unverändert (lokal geprüft 20.11.2026)
   - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 20.11.2026, 375 px ohne seitliches Scrollen)
 
+### A-26 Preisvermerk «Stand Winter 2027»
+- Priorität: Soll · Status: freigegeben durch Vreny (20.11.2026: Preisliste umbenannt auf «Preisliste Winter 2027», Vermerk dort geändert; Website: «Ja, Website auch»)
+- Seite z'Pfünderli, Vermerk unter den Preislisten:
+  - DE: «Preise in CHF, Stand Sommer 2026, Änderungen vorbehalten.» → «Preise in CHF, Stand Winter 2027, Änderungen vorbehalten.»
+  - EN: «Prices in CHF, as of summer 2026, subject to change.» → «Prices in CHF, as of winter 2027, subject to change.»
+- Preise selbst unverändert.
+- Abnahmekriterien:
+  - [x] Vermerk DE und EN zeigt Winter 2027, kein «Sommer 2026» / «summer 2026» mehr auf der Website (lokal geprüft 20.11.2026)
+  - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 20.11.2026, 375 px ohne seitliches Scrollen)
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -360,3 +370,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.21 | 19.11.2026 | A-23: Stornierung später als 14 Tage vor Anreise: zwei Übernachtungen |
 | 0.22 | 20.11.2026 | A-24: E-Mail-Adresse Swiss-Knife-Shop (swissknifeshop@bluewin.ch) im Impressum und im Shop-Abschnitt |
 | 0.23 | 20.11.2026 | A-25: Zeichen H weiss mit braunem Rand, Zeichen B braun gefüllt (Stil getauscht) |
+| 0.24 | 20.11.2026 | A-26: Preisvermerk «Stand Winter 2027» |
