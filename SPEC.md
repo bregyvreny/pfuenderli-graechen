@@ -336,6 +336,14 @@ Domain: `https://pfuenderli-graechen.ch`
   - [x] Beide Stellen DE und EN geändert, kein anderer Text verändert (lokal geprüft 20.11.2026)
   - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 20.11.2026, 375 px ohne seitliches Scrollen)
 
+### A-28 Greecherli mit Rahm
+- Priorität: Soll · Status: freigegeben durch Vreny (21.11.2026: «Greecherli auf der Karte und Website mit Rahm 9.50 / ohne warm»)
+- Seite z'Pfünderli, Bistro-Karte, Desserts & Hausgemachtes: unter «Greecherli – Früchtekuchen mit Mürbeteig … 7.50» neue Zeile «Greecherli mit Rahm» 9.50 (EN: «Greecherli with whipped cream»). Wie Menükarte Winter 2026.
+- Brotladen-Abschnitt (Greecherli 7.50) unverändert.
+- Abnahmekriterien:
+  - [x] Neue Zeile DE und EN mit 9.50, sonst nichts verändert (lokal geprüft 21.11.2026)
+  - [x] Handy und Desktop in Ordnung, keine neuen Konsolenfehler (lokal geprüft 21.11.2026, 375 px ohne seitliches Scrollen)
+
 ## 4. Nicht-funktionale Anforderungen
 - Darstellung auf Handy (ab 375 px), Tablet, Desktop
 - Sprache: Deutsch (Schweiz, «ss») und Englisch
@@ -381,3 +389,4 @@ Domain: `https://pfuenderli-graechen.ch`
 | 0.23 | 20.11.2026 | A-25: Zeichen H weiss mit braunem Rand, Zeichen B braun gefüllt (Stil getauscht) |
 | 0.24 | 20.11.2026 | A-26: Preisvermerk «Stand Winter 2027» |
 | 0.25 | 20.11.2026 | A-27: Raclette du Valais AOP (Käse & Fondue, Pizza Walliser) |
+| 0.26 | 21.11.2026 | A-28: Greecherli mit Rahm 9.50 (Bistro-Karte) |
